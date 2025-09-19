@@ -1,0 +1,28 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=label
+function0="H"
+global=true
+format="*.alias @lab"
+template="name=l1 lab=VDD"}
+V {}
+S {}
+E {}
+L 1 0 -20 0 0 {}
+L 1 -10 -20 10 -20 {}
+B 5 -2.5 -2.5 2.5 2.5 {name=p dir=inout verilog_type=wire goto=0}
+T {@lab} 12.5 -25 0 0 0.2 0.2 {}

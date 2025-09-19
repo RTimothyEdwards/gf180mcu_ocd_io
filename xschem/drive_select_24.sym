@@ -1,0 +1,53 @@
+v {xschem version=3.4.6 file_version=1.2
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -130 40 130 40 {}
+L 4 -150 30 -130 30 {}
+L 4 -150 -50 -130 -50 {}
+L 4 -150 -30 -130 -30 {}
+L 4 130 -10 150 -10 {}
+L 4 -150 10 -130 10 {}
+L 4 -150 -10 -130 -10 {}
+L 4 -130 -60 -130 40 {}
+L 4 -130 -60 130 -60 {}
+L 4 130 -60 130 40 {}
+L 5 0 -80 0 -60 {}
+L 5 0 40 0 60 {}
+B 5 -152.5 27.5 -147.5 32.5 {name=FAST_N dir=in }
+B 5 -152.5 -52.5 -147.5 -47.5 {name=IN dir=in }
+B 5 -152.5 -32.5 -147.5 -27.5 {name=ENABLE dir=in }
+B 5 147.5 -12.5 152.5 -7.5 {name=OUT dir=out }
+B 5 -152.5 7.5 -147.5 12.5 {name=FAST dir=in }
+B 5 -2.5 -82.5 2.5 -77.5 {name=VDD dir=inout }
+B 5 -2.5 57.5 2.5 62.5 {name=VSS dir=inout }
+B 5 -152.5 -12.5 -147.5 -7.5 {name=ENABLE_N dir=in }
+T {@symname} -132 39 0 0 0.3 0.3 {}
+T {@name} 10 -72 0 0 0.2 0.2 {}
+T {FAST_N} -125 26 0 0 0.2 0.2 {}
+T {IN} -125 -54 0 0 0.2 0.2 {}
+T {ENABLE} -125 -34 0 0 0.2 0.2 {}
+T {OUT} 125 -14 0 1 0.2 0.2 {}
+T {FAST} -125 6 0 0 0.2 0.2 {}
+T {VDD} 15 -59 0 1 0.2 0.2 {}
+T {VSS} 15 26 0 1 0.2 0.2 {}
+T {ENABLE_N} -125 -14 0 0 0.2 0.2 {}

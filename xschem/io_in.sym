@@ -1,0 +1,45 @@
+v {xschem version=3.4.6 file_version=1.2
+
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 0 -50 0 50 {}
+L 4 -20 0 0 0 {}
+L 4 30 -50 30 -34 {}
+L 4 90 0 110 0 {}
+L 4 -0 -50 90 0 {}
+L 4 -0 50 90 0 {}
+L 4 50 -50 50 -23 {}
+B 5 -22.5 -2.5 -17.5 2.5 {name=PAD dir=in}
+B 5 27.5 -52.5 32.5 -47.5 {name=IE dir=in}
+B 5 47.5 -52.5 52.5 -47.5 {name=CS dir=in}
+B 5 107.5 -2.5 112.5 2.5 {name=Y dir=out}
+B 5 -2.5 -52.5 2.5 -47.5 {name=DVDD dir=inout}
+B 5 -2.5 47.5 2.5 52.5 {name=DVSS dir=inout}
+B 5 -2.5 -22.5 2.5 -17.5 {name=VDD dir=inout}
+B 5 -2.5 17.5 2.5 22.5 {name=VSS dir=inout}
+T {@symname} 65 14 0 0 0.3 0.3 {}
+T {@name} 70 -27 0 0 0.2 0.2 {}
+T {PAD} 5 -9 0 0 0.2 0.2 {}
+T {IE} 25 -30 0 0 0.2 0.2 {}
+T {CS} 42 -20 0 0 0.2 0.2 {}
+T {Y} 75 -9 0 1 0.2 0.2 {}
