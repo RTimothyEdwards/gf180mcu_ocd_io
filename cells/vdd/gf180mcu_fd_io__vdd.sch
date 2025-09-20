@@ -5,17 +5,17 @@ V {}
 S {}
 E {}
 T {gf180mcu_fd_io__vdd
-digital power supply pad with clamp} -140 -250 0 0 0.4 0.4 {}
-N -140 200 -120 200 {lab=VSS}
-N -140 -110 30 -110 {lab=DVDD}
-N -140 140 30 140 {lab=DVSS}
-N 30 -110 180 -110 {lab=DVDD}
-N 30 140 180 140 {lab=DVSS}
-N 180 -110 970 -110 {lab=DVDD}
-N 810 -50 880 -50 {lab=DVDD}
-N 880 -110 880 -50 {lab=DVDD}
-N 810 -110 810 -80 {lab=DVDD}
-N 470 -110 470 -80 {lab=DVDD}
+core power supply pad with clamp} -140 -250 0 0 0.4 0.4 {}
+N -140 200 -120 200 {lab=DVDD}
+N -140 -110 30 -110 {lab=VDD}
+N -140 140 30 140 {lab=VSS}
+N 30 -110 180 -110 {lab=VDD}
+N 30 140 180 140 {lab=VSS}
+N 180 -110 970 -110 {lab=VDD}
+N 810 -50 880 -50 {lab=VDD}
+N 880 -110 880 -50 {lab=VDD}
+N 810 -110 810 -80 {lab=VDD}
+N 470 -110 470 -80 {lab=VDD}
 N 810 -20 810 0 {lab=n4}
 N 810 0 930 0 {lab=n4}
 N 420 -50 430 -50 {lab=n8}
@@ -23,50 +23,51 @@ N 650 -20 650 0 {lab=n6}
 N 650 0 760 0 {lab=n6}
 N 760 -50 760 0 {lab=n6}
 N 760 -50 770 -50 {lab=n6}
-N 650 -110 650 -80 {lab=DVDD}
-N 650 -50 720 -50 {lab=DVDD}
-N 720 -110 720 -50 {lab=DVDD}
-N 470 -50 540 -50 {lab=DVDD}
-N 540 -110 540 -50 {lab=DVDD}
+N 650 -110 650 -80 {lab=VDD}
+N 650 -50 720 -50 {lab=VDD}
+N 720 -110 720 -50 {lab=VDD}
+N 470 -50 540 -50 {lab=VDD}
+N 540 -110 540 -50 {lab=VDD}
 N 470 -20 470 0 {lab=n7}
 N 470 0 600 0 {lab=n7}
 N 600 -50 600 0 {lab=n7}
 N 600 -50 610 -50 {lab=n7}
 N 390 -50 420 -50 {lab=n8}
-N 970 -110 970 -30 {lab=DVDD}
-N 970 30 970 140 {lab=DVSS}
-N 180 140 970 140 {lab=DVSS}
+N 970 -110 970 -30 {lab=VDD}
+N 970 30 970 140 {lab=VSS}
+N 180 140 970 140 {lab=VSS}
 N 390 70 430 70 {lab=n8}
 N 470 0 470 40 {lab=n7}
-N 470 100 470 140 {lab=DVSS}
-N 470 70 570 70 {lab=DVSS}
-N 570 70 570 140 {lab=DVSS}
+N 470 100 470 140 {lab=VSS}
+N 470 70 570 70 {lab=VSS}
+N 570 70 570 140 {lab=VSS}
 N 810 0 810 30 {lab=n4}
-N 810 90 810 140 {lab=DVSS}
+N 810 90 810 140 {lab=VSS}
 N 760 -0 760 60 {lab=n6}
 N 760 60 770 60 {lab=n6}
-N 810 60 910 60 {lab=DVSS}
-N 910 60 910 140 {lab=DVSS}
-N 650 90 650 140 {lab=DVSS}
+N 810 60 910 60 {lab=VSS}
+N 910 60 910 140 {lab=VSS}
+N 650 90 650 140 {lab=VSS}
 N 650 -0 650 30 {lab=n6}
 N 600 0 600 60 {lab=n7}
 N 600 60 610 60 {lab=n7}
-N 650 60 750 60 {lab=DVSS}
-N 750 60 750 140 {lab=DVSS}
+N 650 60 750 60 {lab=VSS}
+N 750 60 750 140 {lab=VSS}
 N 310 -30 310 40 {lab=n8}
 N 310 10 390 10 {lab=n8}
 N 390 -50 390 70 {lab=n8}
-N 310 100 310 140 {lab=DVSS}
-N 310 -110 310 -90 {lab=DVDD}
-N 330 -60 350 -60 {lab=DVDD}
-N 350 -110 350 -60 {lab=DVDD}
-N 180 -110 180 -20 {lab=DVDD}
-N 180 40 180 140 {lab=DVSS}
-N 30 -110 30 -20 {lab=DVDD}
-N 30 40 30 140 {lab=DVSS}
-N 970 -0 1060 -0 {lab=DVSS}
-N 1060 -0 1060 140 {lab=DVSS}
-N 970 140 1060 140 {lab=DVSS}
+N 310 100 310 140 {lab=VSS}
+N 310 -110 310 -90 {lab=VDD}
+N 330 -60 350 -60 {lab=VDD}
+N 350 -110 350 -60 {lab=VDD}
+N 180 -110 180 -20 {lab=VDD}
+N 180 40 180 140 {lab=VSS}
+N 30 -110 30 -20 {lab=VDD}
+N 30 40 30 140 {lab=VSS}
+N 970 -0 1060 -0 {lab=VSS}
+N 1060 -0 1060 140 {lab=VSS}
+N 970 140 1060 140 {lab=VSS}
+N -140 250 -120 250 {lab=#net1}
 C {symbols/diode_nd2ps_06v0.sym} 30 10 2 1 {name=D1
 model=diode_nd2ps_06v0
 r_w=40u
@@ -78,9 +79,9 @@ L=15e-6
 model=cap_nmos_06v0
 spiceprefix=X
 m=4}
-C {iopin.sym} -140 -110 0 1 {name=p1 lab=DVDD}
-C {iopin.sym} -140 140 0 1 {name=p2 lab=DVSS}
-C {iopin.sym} -140 200 0 1 {name=p4 lab=VSS}
+C {iopin.sym} -140 200 0 1 {name=p1 lab=DVDD}
+C {iopin.sym} -140 250 0 1 {name=p2 lab=DVSS}
+C {iopin.sym} -140 -110 0 1 {name=p4 lab=VDD}
 C {noconn.sym} -120 200 0 1 {name=l2}
 C {symbols/pfet_06v0.sym} 790 -50 0 0 {name=M1
 L=0.7u
@@ -196,3 +197,5 @@ C {lab_wire.sym} 490 0 2 0 {name=p3 sig_type=std_logic lab=n7}
 C {lab_wire.sym} 670 0 2 0 {name=p5 sig_type=std_logic lab=n6}
 C {lab_wire.sym} 830 0 2 0 {name=p6 sig_type=std_logic lab=n4}
 C {lab_wire.sym} 370 10 0 0 {name=p7 sig_type=std_logic lab=n8}
+C {iopin.sym} -140 140 0 1 {name=p8 lab=VSS}
+C {noconn.sym} -120 250 0 1 {name=l1}

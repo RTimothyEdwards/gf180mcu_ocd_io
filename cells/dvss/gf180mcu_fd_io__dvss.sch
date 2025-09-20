@@ -5,7 +5,7 @@ V {}
 S {}
 E {}
 T {gf180mcu_fd_io__dvss
-digital ground return pad with clamp} -140 -250 0 0 0.4 0.4 {}
+I/O and ESD ground return pad with clamp} -140 -250 0 0 0.4 0.4 {}
 N -140 200 -120 200 {lab=VDD}
 N -140 -110 30 -110 {lab=DVDD}
 N -140 140 30 140 {lab=DVSS}
@@ -67,6 +67,7 @@ N 30 40 30 140 {lab=DVSS}
 N 970 -0 1070 -0 {lab=DVSS}
 N 1070 -0 1070 140 {lab=DVSS}
 N 970 140 1070 140 {lab=DVSS}
+N -140 240 -120 240 {lab=VDD}
 C {symbols/diode_nd2ps_06v0.sym} 30 10 2 1 {name=D1
 model=diode_nd2ps_06v0
 r_w=1u
@@ -196,3 +197,6 @@ C {lab_wire.sym} 490 0 2 0 {name=p3 sig_type=std_logic lab=n7}
 C {lab_wire.sym} 670 0 2 0 {name=p5 sig_type=std_logic lab=n6}
 C {lab_wire.sym} 830 0 2 0 {name=p6 sig_type=std_logic lab=n4}
 C {lab_wire.sym} 370 10 0 0 {name=p7 sig_type=std_logic lab=n8}
+C {iopin.sym} -140 240 0 1 {name=p8 lab=VSS}
+C {noconn.sym} -120 240 0 1 {name=l1
+lab=VSS}

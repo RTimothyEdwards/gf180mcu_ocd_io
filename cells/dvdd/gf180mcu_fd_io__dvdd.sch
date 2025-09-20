@@ -5,7 +5,7 @@ V {}
 S {}
 E {}
 T {gf180mcu_fd_io__dvdd
-digital power supply pad with clamp} -140 -250 0 0 0.4 0.4 {}
+I/O and ESD power supply pad with clamp} -140 -250 0 0 0.4 0.4 {}
 N -140 200 -120 200 {lab=VSS}
 N -140 -110 30 -110 {lab=DVDD}
 N -140 140 30 140 {lab=DVSS}
@@ -67,6 +67,7 @@ N 30 40 30 140 {lab=DVSS}
 N 970 -0 1060 -0 {lab=DVSS}
 N 1060 -0 1060 140 {lab=DVSS}
 N 970 140 1060 140 {lab=DVSS}
+N -140 240 -120 240 {lab=VSS}
 C {symbols/diode_nd2ps_06v0.sym} 30 10 2 1 {name=D1
 model=diode_nd2ps_06v0
 r_w=40u
@@ -80,7 +81,7 @@ spiceprefix=X
 m=4}
 C {iopin.sym} -140 -110 0 1 {name=p1 lab=DVDD}
 C {iopin.sym} -140 140 0 1 {name=p2 lab=DVSS}
-C {iopin.sym} -140 200 0 1 {name=p4 lab=VSS}
+C {iopin.sym} -140 200 0 1 {name=p4 lab=VDD}
 C {noconn.sym} -120 200 0 1 {name=l2}
 C {symbols/pfet_06v0.sym} 790 -50 0 0 {name=M1
 L=0.7u
@@ -196,3 +197,5 @@ C {lab_wire.sym} 490 0 2 0 {name=p3 sig_type=std_logic lab=n7}
 C {lab_wire.sym} 670 0 2 0 {name=p5 sig_type=std_logic lab=n6}
 C {lab_wire.sym} 830 0 2 0 {name=p6 sig_type=std_logic lab=n4}
 C {lab_wire.sym} 370 10 0 0 {name=p7 sig_type=std_logic lab=n8}
+C {iopin.sym} -140 240 0 1 {name=p8 lab=VSS}
+C {noconn.sym} -120 240 0 1 {name=l1}
