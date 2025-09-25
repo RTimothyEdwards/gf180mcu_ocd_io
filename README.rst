@@ -1,8 +1,9 @@
-GlobalFoundries 180um MCU I/O libraries
-=======================================
+Open Circuit Design dual voltage I/O library for GlobalFoundries 180um MCU
+==========================================================================
 
-This repository contains the "I/O cells" implementation as part of
+This repository contains dual-voltage (3.3V core, 5.0V pad) I/O cells, copied from
 `Google's open source PDK for GlobalFoundries 180nm MCU process node <https://github.com/google/gf180mcu-pdk>`_.
+and modified for dual-voltage use.
 
 License
 =======

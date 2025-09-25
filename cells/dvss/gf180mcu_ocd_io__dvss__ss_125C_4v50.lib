@@ -34,4 +34,8 @@
 			direction     : "inout";
 			capacitance   : 0;
 		}
+		pin ("VSS") {
+			direction     : "inout";
+			capacitance   : 0;
+		}
 	}

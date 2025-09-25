@@ -30,6 +30,10 @@
 			direction     : "inout";
 			capacitance   : 0;
 		}
+		pin ("VDD") {
+			direction     : "inout";
+			capacitance   : 0;
+		}
 		pin ("VSS") {
 			direction     : "inout";
 			capacitance   : 0;

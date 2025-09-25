@@ -2,8 +2,6 @@ magic
 tech gf180mcuD
 magscale 1 10
 timestamp 1758724778
-<< error_p >>
-rect 826 918 854 994
 << isosubstrate >>
 rect -1470 -83 6872 2575
 << nwell >>

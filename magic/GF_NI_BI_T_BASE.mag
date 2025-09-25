@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1758725593
+timestamp 1758815975
 << isosubstrate >>
 rect 462 55971 14818 57307
 rect 462 55393 2504 55971
@@ -21589,11 +21589,11 @@ rect 231 1652 317 1708
 rect 373 1652 383 1708
 rect 165 1642 383 1652
 use comp018green_esd_cdm  comp018green_esd_cdm_0
-timestamp 1758561184
+timestamp 1758724778
 transform 1 0 4583 0 -1 49459
 box -205 -83 5981 8547
 use comp018green_inpath_cms_smt  comp018green_inpath_cms_smt_0
-timestamp 1758674947
+timestamp 1758815975
 transform 1 0 848 0 -1 55852
 box -144 -83 13452 14940
 use comp018green_out_paddrv_16T  comp018green_out_paddrv_16T_0
@@ -21601,79 +21601,79 @@ timestamp 1758561184
 transform 1 0 794 0 1 1465
 box -360 -1465 13796 27678
 use comp018green_out_predrv  comp018green_out_predrv_0
-timestamp 1758561184
+timestamp 1758724778
 transform 1 0 479 0 -1 35969
 box -83 -83 3677 6020
 use comp018green_out_predrv  comp018green_out_predrv_1
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 14585 0 -1 35969
 box -83 -83 3677 6020
 use comp018green_out_predrv  comp018green_out_predrv_2
-timestamp 1758561184
+timestamp 1758724778
 transform 1 0 7487 0 -1 35969
 box -83 -83 3677 6020
 use comp018green_out_predrv  comp018green_out_predrv_3
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 7577 0 -1 35969
 box -83 -83 3677 6020
 use comp018green_out_sigbuf_a  comp018green_out_sigbuf_a_0
-timestamp 1758662591
+timestamp 1758724778
 transform -1 0 9998 0 1 37501
 box 392 -83 2701 2911
 use comp018green_out_sigbuf_oe  comp018green_out_sigbuf_oe_0
-timestamp 1758662591
+timestamp 1758724778
 transform 1 0 398 0 1 37501
 box 487 -83 2795 2911
 use comp018green_out_sigbuf_oe  comp018green_out_sigbuf_oe_1
-timestamp 1758662591
+timestamp 1758724778
 transform -1 0 5732 0 1 37501
 box 487 -83 2795 2911
 use comp018green_out_sigbuf_oe  comp018green_out_sigbuf_oe_2
-timestamp 1758662591
+timestamp 1758724778
 transform 1 0 4758 0 1 37501
 box 487 -83 2795 2911
 use comp018green_sigbuf_1  comp018green_sigbuf_1_0
-timestamp 1758561184
+timestamp 1758724778
 transform 1 0 9404 0 1 37501
 box 202 -83 2889 2911
 use lv_inv  lv_inv_0
-timestamp 1758561184
+timestamp 1758724778
 transform 1 0 -2712 0 -1 90907
 box 16038 50813 16457 51634
 use lv_inv  lv_inv_1
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 29945 0 -1 88862
 box 16038 50813 16457 51634
 use lv_inv  lv_inv_2
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 29651 0 -1 88862
 box 16038 50813 16457 51634
 use lv_inv  lv_inv_3
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 29357 0 -1 88862
 box 16038 50813 16457 51634
 use lv_inv  lv_inv_4
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 29778 0 -1 89887
 box 16038 50813 16457 51634
 use lv_inv  lv_inv_6
-timestamp 1758561184
+timestamp 1758724778
 transform -1 0 30239 0 -1 88862
 box 16038 50813 16457 51634
 use lv_nand  lv_nand_0
-timestamp 1758674947
+timestamp 1758724778
 transform -1 0 31230 0 -1 90896
 box 16932 50802 17513 51623
 use lv_nand  lv_nand_1
-timestamp 1758674947
+timestamp 1758724778
 transform -1 0 30292 0 -1 90896
 box 16932 50802 17513 51623
 use lv_nand  lv_nand_2
-timestamp 1758674947
+timestamp 1758724778
 transform -1 0 31222 0 -1 89876
 box 16932 50802 17513 51623
 use lv_nand  lv_nand_3
-timestamp 1758674947
+timestamp 1758724778
 transform -1 0 30284 0 -1 89876
 box 16932 50802 17513 51623
 << labels >>

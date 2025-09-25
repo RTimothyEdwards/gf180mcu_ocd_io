@@ -1,0 +1,27 @@
+Remaining work:
+----------------------------------------------------------------
+1. Validate the 4LM and 3LM layouts.
+
+2. The 3LM layouts have the known issue that the metal3 is not
+compatible with the thick top metal option, which is specified
+in the gf180mcuA PDK variant.
+
+3. Rework the digital cell liberty file data.  The existing data
+are for the original cells, which have 5V core-facing transistors.
+The new cells have 3.3V core-facing transistors, and level shifters
+between the two voltage domains.
+
+4. The liberty files should specify the value of both voltage domains
+in the filename.
+
+5. The corner cell fails LVS because the extraction shows a short
+between the two ground domains.  This is not a major issue since
+the ground domains are shorted through the substrate, but it needs
+to be solved for the corner cell to be able to be used in a top
+level cell and have it pass LVS.
+
+6. The low-voltage domain clamp should be reworked for the lower
+voltage.
+
+7. The voltage busses should be redistributed, with more busses
+changed to the low voltage (VDD, VSS) domain.

@@ -51,7 +51,7 @@ library ("gf180mcu_ocd_io__ff_125C_2v75") {
 	  "report_power_calculation");
 	power_supply () {
 		default_power_rail : "VDD";
-		power_rail("DVDD",2.750000);
+		power_rail("DVDD",4.50000);
 		power_rail("DVSS",0.000000);
 		power_rail("VDD",2.750000);
 		power_rail("VSS",0.000000);
@@ -87,7 +87,7 @@ library ("gf180mcu_ocd_io__ff_125C_2v75") {
 		temperature : 125.000000;
 		voltage : 2.750000;
 		tree_type : "balanced_tree";
-		power_rail("DVDD",2.750000);
+		power_rail("DVDD",4.50000);
 		power_rail("DVSS",0.000000);
 		power_rail("VDD",2.750000);
 		power_rail("VSS",0.000000);
