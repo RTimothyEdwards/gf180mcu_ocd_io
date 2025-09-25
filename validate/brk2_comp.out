@@ -1,0 +1,15 @@
+Flattening unmatched subcell GF_NI_BRK2_0 in circuit gf180mcu_ocd_io__brk2 (0)(1 instance)
+Flattening unmatched subcell GF_NI_BRK2_1 in circuit gf180mcu_ocd_io__brk2 (0)(1 instance)
+
+Cell gf180mcu_ocd_io__brk2 (0) disconnected node: VSS
+Cell gf180mcu_ocd_io__brk2 (1) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: gf180mcu_ocd_io__brk2                              |Circuit 2: gf180mcu_ocd_io__brk2                              
+--------------------------------------------------------------|--------------------------------------------------------------
+VSS                                                           |VSS                                                           
+-----------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_ocd_io__brk2 and gf180mcu_ocd_io__brk2 are equivalent.
+
+Final result: Verify:  cell ../netlist/schematic/gf180mcu_ocd_io__brk2.spice has no elements and/or nodes.  Not checked.

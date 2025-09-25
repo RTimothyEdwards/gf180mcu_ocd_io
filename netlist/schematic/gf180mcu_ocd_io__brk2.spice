@@ -1,0 +1,5 @@
+** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/brk2/gf180mcu_ocd_io__brk2.sch
+.subckt gf180mcu_ocd_io__brk2 VSS
+*.PININFO VSS:B
+* noconn VSS
+.ends

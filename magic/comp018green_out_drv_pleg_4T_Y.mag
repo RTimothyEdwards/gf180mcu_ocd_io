@@ -1,0 +1,9 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1758561184
+use pmos_6p0_esd_40  pmos_6p0_esd_40_0
+timestamp 1758561184
+transform 1 0 0 0 1 0
+box 0 6 598 4126
+<< end >>

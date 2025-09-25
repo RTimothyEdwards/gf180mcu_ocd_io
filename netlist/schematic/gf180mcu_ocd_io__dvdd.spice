@@ -1,0 +1,24 @@
+** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/dvdd/gf180mcu_ocd_io__dvdd.sch
+.subckt gf180mcu_ocd_io__dvdd DVDD DVSS VDD VSS
+*.PININFO DVDD:B DVSS:B VDD:B VSS:B
+D1 DVSS DVDD diode_nd2ps_06v0 area='40u * 1u ' pj='2*40u + 2*1u ' m=4
+XC1 DVDD DVSS cap_nmos_06v0 c_width=15e-6 c_length=15e-6 m=4
+* noconn VDD
+XM1 n4 n6 DVDD DVDD pfet_06v0 L=0.7u W=120u nf=2 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM2 n7 n8 DVDD DVDD pfet_06v0 L=0.7u W=20u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM3 n6 n7 DVDD DVDD pfet_06v0 L=0.7u W=15u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XC2 n8 DVSS cap_nmos_06v0 c_width=25e-6 c_length=10e-6 m=8
+XM4 DVDD n4 DVSS DVSS nfet_06v0 L=0.70u W=4m nf=80 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM5 n7 n8 DVSS DVSS nfet_06v0 L=0.70u W=5u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM6 n4 n6 DVSS DVSS nfet_06v0 L=0.70u W=30u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM7 n6 n7 DVSS DVSS nfet_06v0 L=0.70u W=30u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XR1 n8 DVDD DVDD ppolyf_u r_width=0.8e-6 r_length=766.26e-6 m=1
+* noconn VSS
+.ends

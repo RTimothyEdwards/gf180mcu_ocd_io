@@ -1,0 +1,68 @@
+* NGSPICE file created from gf180mcu_ocd_io__asig_5p0.ext - technology: gf180mcuD
+
+.subckt x5LM_METAL_RAIL_PAD_60 VSUBS Bondpad_5LM_0/m2_n400_0# 5LM_METAL_RAIL_0/VDD
++ 5LM_METAL_RAIL_0/VSS 5LM_METAL_RAIL_0/DVDD 5LM_METAL_RAIL_0/DVSS
+.ends
+
+.subckt comp018green_esd_hbm w_n51_7356# a_1131_1121# dw_n51_n51#
+D0 a_1131_1121# w_n51_7356# diode_pd2nw_06v0 pj=0.106m area=0.15n
+D1 a_1131_1121# w_n51_7356# diode_pd2nw_06v0 pj=0.106m area=0.15n
+D2 a_1131_1121# w_n51_7356# diode_pd2nw_06v0 pj=0.106m area=0.15n
+D3 dw_n51_n51# a_1131_1121# diode_nd2ps_06v0 pj=0.106m area=0.15n
+D4 dw_n51_n51# a_1131_1121# diode_nd2ps_06v0 pj=0.106m area=0.15n
+D5 a_1131_1121# w_n51_7356# diode_pd2nw_06v0 pj=0.106m area=0.15n
+D6 dw_n51_n51# a_1131_1121# diode_nd2ps_06v0 pj=0.106m area=0.15n
+D7 dw_n51_n51# a_1131_1121# diode_nd2ps_06v0 pj=0.106m area=0.15n
+.ends
+
+.subckt GF_NI_ASIG_5P0_BASE a_13985_889# m2_828_38097# comp018green_esd_hbm_0/a_1131_1121#
++ m2_13160_36497# w_1350_806# w_2400_15668#
+Xcomp018green_esd_hbm_0 w_2400_15668# comp018green_esd_hbm_0/a_1131_1121# w_1350_806#
++ comp018green_esd_hbm
+D0 w_1350_806# w_2400_15668# diode_nd2ps_06v0 pj=82u area=40p
+D1 w_1350_806# w_2400_15668# diode_nd2ps_06v0 pj=82u area=40p
+X0 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X1 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+D2 w_1350_806# w_2400_15668# diode_nd2ps_06v0 pj=82u area=40p
+X2 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X3 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X4 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X5 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X6 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X7 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X8 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X9 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X10 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X11 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X12 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X13 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X14 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X15 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X16 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X17 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X18 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X19 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X20 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X21 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X22 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X23 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X24 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X25 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X26 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X27 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X28 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X29 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X30 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X31 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X32 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X33 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X34 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+X35 w_2400_15668# w_1350_806# cap_nmos_06v0 c_width=15u c_length=15u
+D3 w_1350_806# w_2400_15668# diode_nd2ps_06v0 pj=82u area=40p
+.ends
+
+.subckt gf180mcu_ocd_io__asig_5p0 DVSS VDD DVDD VSS ASIG5V
+X5LM_METAL_RAIL_PAD_60_0 VSS ASIG5V VDD VSS DVDD DVSS x5LM_METAL_RAIL_PAD_60
+XGF_NI_ASIG_5P0_BASE_0 VSS VDD ASIG5V VSS DVSS DVDD GF_NI_ASIG_5P0_BASE
+.ends
+

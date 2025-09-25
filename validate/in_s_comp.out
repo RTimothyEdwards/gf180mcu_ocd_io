@@ -1,0 +1,133 @@
+
+Circuit 1 cell pfet_06v0_dss and Circuit 2 cell pfet_06v0_dss are black boxes.
+Equate elements:  no current cell.
+Device classes pfet_06v0_dss and pfet_06v0_dss are equivalent.
+
+Circuit 1 cell nfet_06v0_dss and Circuit 2 cell nfet_06v0_dss are black boxes.
+Equate elements:  no current cell.
+Device classes nfet_06v0_dss and nfet_06v0_dss are equivalent.
+
+Circuit 1 cell nfet_03v3 and Circuit 2 cell nfet_03v3 are black boxes.
+Equate elements:  no current cell.
+Device classes nfet_03v3 and nfet_03v3 are equivalent.
+
+Circuit 1 cell pfet_03v3 and Circuit 2 cell pfet_03v3 are black boxes.
+Equate elements:  no current cell.
+Device classes pfet_03v3 and pfet_03v3 are equivalent.
+
+Circuit 1 cell pfet_06v0 and Circuit 2 cell pfet_06v0 are black boxes.
+Equate elements:  no current cell.
+Device classes pfet_06v0 and pfet_06v0 are equivalent.
+
+Circuit 1 cell nfet_06v0 and Circuit 2 cell nfet_06v0 are black boxes.
+Equate elements:  no current cell.
+Device classes nfet_06v0 and nfet_06v0 are equivalent.
+
+Circuit 1 cell ppolyf_u and Circuit 2 cell ppolyf_u are black boxes.
+Equate elements:  no current cell.
+Device classes ppolyf_u and ppolyf_u are equivalent.
+
+Circuit 1 cell cap_nmos_06v0 and Circuit 2 cell cap_nmos_06v0 are black boxes.
+Equate elements:  no current cell.
+Device classes cap_nmos_06v0 and cap_nmos_06v0 are equivalent.
+Flattening unmatched subcell GF_NI_IN_S_BASE in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell lv_nand in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell comp018green_out_paddrv_16T in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_out_paddrv_4T_PMOS_GROUP in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_out_drv_pleg_4T_Y in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell pmos_6p0_esd_40 in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell comp018green_out_drv_pleg_4T_X in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell pmos_6p0_esd_40 in circuit gf180mcu_ocd_io__in_s (0)(8 instances)
+Flattening unmatched subcell comp018green_out_paddrv_4T_NMOS_GROUP in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_out_drv_nleg_4T in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell tie_poly_res in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_sigbuf_1 in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell lvlshift_up in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_out_predrv in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell comp018green_out_sigbuf_a in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell lvlshift_up in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_out_sigbuf_oe in circuit gf180mcu_ocd_io__in_s (0)(3 instances)
+Flattening unmatched subcell lvlshift_up in circuit gf180mcu_ocd_io__in_s (0)(3 instances)
+Flattening unmatched subcell comp018green_inpath_cms_smt in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell lv_inv in circuit gf180mcu_ocd_io__in_s (0)(10 instances)
+Flattening unmatched subcell comp018green_in_pupd in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_in_logic_pupd in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell lv_nand in circuit gf180mcu_ocd_io__in_s (0)(2 instances)
+Flattening unmatched subcell lv_inv in circuit gf180mcu_ocd_io__in_s (0)(6 instances)
+Flattening unmatched subcell lv_passgate in circuit gf180mcu_ocd_io__in_s (0)(2 instances)
+Flattening unmatched subcell comp018green_sigbuf in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell lvlshift_up in circuit gf180mcu_ocd_io__in_s (0)(4 instances)
+Flattening unmatched subcell comp018green_in_drv in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_in_cms_smt in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell comp018green_esd_cdm in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell x5LM_METAL_RAIL_PAD_60 in circuit gf180mcu_ocd_io__in_s (0)(1 instance)
+Flattening unmatched subcell io_out in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_nand2_1 in circuit gf180mcu_ocd_io__in_s (1)(4 instances)
+Flattening unmatched subcell io_inv_2 in circuit gf180mcu_ocd_io__in_s (1)(10 instances)
+Flattening unmatched subcell drive_select in circuit gf180mcu_ocd_io__in_s (1)(4 instances)
+Flattening unmatched subcell io_inv_4 in circuit gf180mcu_ocd_io__in_s (1)(8 instances)
+Flattening unmatched subcell io_inv_1 in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_lvlshft in circuit gf180mcu_ocd_io__in_s (1)(5 instances)
+Flattening unmatched subcell io_in in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_inv_1 in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+Flattening unmatched subcell io_inv_2 in circuit gf180mcu_ocd_io__in_s (1)(4 instances)
+Flattening unmatched subcell io_inv_3 in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_xfer_1i in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+Flattening unmatched subcell io_inv_1i in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_inv_2i in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_inv_3i in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_lvlshft in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+Flattening unmatched subcell io_pupd in circuit gf180mcu_ocd_io__in_s (1)(1 instance)
+Flattening unmatched subcell io_xfer_1 in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+Flattening unmatched subcell io_inv_1 in circuit gf180mcu_ocd_io__in_s (1)(4 instances)
+Flattening unmatched subcell io_nand2_1 in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+Flattening unmatched subcell io_inv_2 in circuit gf180mcu_ocd_io__in_s (1)(4 instances)
+Flattening unmatched subcell io_lvlshft in circuit gf180mcu_ocd_io__in_s (1)(2 instances)
+
+Removing zero-valued device vsrc from cell gf180mcu_ocd_io__in_s (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_io__in_s (0) makes a better match
+Making another compare attempt.
+
+Class gf180mcu_ocd_io__in_s (0):  Merged 114 parallel devices.
+Class gf180mcu_ocd_io__in_s (0):  Merged 7 series devices.
+Class gf180mcu_ocd_io__in_s (1):  Merged 7 parallel devices.
+Class gf180mcu_ocd_io__in_s (1):  Merged 7 series devices.
+Subcircuit summary:
+Circuit 1: gf180mcu_ocd_io__in_s                              |Circuit 2: gf180mcu_ocd_io__in_s                              
+--------------------------------------------------------------|--------------------------------------------------------------
+nfet_03v3 (36->31)                                            |nfet_03v3 (31)                                                
+pfet_03v3 (36->28)                                            |pfet_03v3 (31->28)                                            
+pfet_06v0_dss (12->8)                                         |pfet_06v0_dss (8)                                             
+nfet_06v0_dss (8)                                             |nfet_06v0_dss (8)                                             
+ppolyf_u (14->4)                                              |ppolyf_u (14->4)                                              
+pfet_06v0 (115->79)                                           |pfet_06v0 (79)                                                
+nfet_06v0 (118->79)                                           |nfet_06v0 (79)                                                
+diode_pd2nw_03v3 (12->6)                                      |diode_pd2nw_03v3 (12->6)                                      
+diode_pd2nw_06v0 (2->1)                                       |diode_pd2nw_06v0 (2->1)                                       
+diode_nd2ps_06v0 (2->1)                                       |diode_nd2ps_06v0 (2->1)                                       
+cap_nmos_06v0 (12->1)                                         |cap_nmos_06v0 (12->1)                                         
+Number of devices: 246                                        |Number of devices: 246                                        
+Number of nets: 110                                           |Number of nets: 110                                           
+-----------------------------------------------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Resolving symmetries by net name.
+Netlists match with 26 symmetries.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_ocd_io__in_s                              |Circuit 2: gf180mcu_ocd_io__in_s                              
+--------------------------------------------------------------|--------------------------------------------------------------
+PAD                                                           |PAD                                                           
+VSS                                                           |VSS                                                           
+DVSS                                                          |DVSS                                                          
+DVDD                                                          |DVDD                                                          
+VDD                                                           |VDD                                                           
+Y                                                             |Y                                                             
+PU                                                            |PU                                                            
+PD                                                            |PD                                                            
+-----------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_ocd_io__in_s and gf180mcu_ocd_io__in_s are equivalent.
+
+Final result: Circuits match uniquely.
+.

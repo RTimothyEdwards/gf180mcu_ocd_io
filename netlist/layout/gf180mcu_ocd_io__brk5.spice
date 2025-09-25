@@ -1,0 +1,13 @@
+* NGSPICE file created from gf180mcu_ocd_io__brk5.ext - technology: gf180mcuD
+
+.subckt GF_NI_BRK5_1 VSS
+.ends
+
+.subckt GF_NI_BRK5_0 VSS
+XGF_NI_BRK5_1_0 VSS GF_NI_BRK5_1
+.ends
+
+.subckt gf180mcu_ocd_io__brk5 VSS
+XGF_NI_BRK5_0_0 VSS GF_NI_BRK5_0
+.ends
+

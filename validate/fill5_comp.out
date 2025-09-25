@@ -1,0 +1,24 @@
+Flattening unmatched subcell GF_NI_FILL5_0 in circuit gf180mcu_ocd_io__fill5 (0)(1 instance)
+Flattening unmatched subcell GF_NI_FILL5_1 in circuit gf180mcu_ocd_io__fill5 (0)(1 instance)
+Flattening unmatched subcell POLY_SUB_FILL in circuit gf180mcu_ocd_io__fill5 (0)(35 instances)
+
+Cell gf180mcu_ocd_io__fill5 (0) disconnected node: DVDD
+Cell gf180mcu_ocd_io__fill5 (0) disconnected node: DVSS
+Cell gf180mcu_ocd_io__fill5 (1) disconnected node: DVDD
+Cell gf180mcu_ocd_io__fill5 (1) disconnected node: DVSS
+Cell gf180mcu_ocd_io__fill5 (1) disconnected node: VDD
+Cell gf180mcu_ocd_io__fill5 (1) disconnected node: VSS
+Class gf180mcu_ocd_io__fill5 (0):  Merged 69 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_ocd_io__fill5                             |Circuit 2: gf180mcu_ocd_io__fill5                             
+--------------------------------------------------------------|--------------------------------------------------------------
+DVDD                                                          |DVDD                                                          
+VDD                                                           |VDD                                                           
+DVSS                                                          |DVSS                                                          
+VSS                                                           |VSS                                                           
+-----------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_ocd_io__fill5 and gf180mcu_ocd_io__fill5 are equivalent.
+
+Final result: Verify:  cell ../netlist/schematic/gf180mcu_ocd_io__fill5.spice has no elements and/or nodes.  Not checked.

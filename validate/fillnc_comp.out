@@ -1,0 +1,22 @@
+
+Cell gf180mcu_ocd_io__fillnc (0) disconnected node: VSS
+Cell gf180mcu_ocd_io__fillnc (0) disconnected node: VDD
+Cell gf180mcu_ocd_io__fillnc (0) disconnected node: DVSS
+Cell gf180mcu_ocd_io__fillnc (0) disconnected node: DVDD
+Cell gf180mcu_ocd_io__fillnc (1) disconnected node: DVDD
+Cell gf180mcu_ocd_io__fillnc (1) disconnected node: DVSS
+Cell gf180mcu_ocd_io__fillnc (1) disconnected node: VDD
+Cell gf180mcu_ocd_io__fillnc (1) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: gf180mcu_ocd_io__fillnc                            |Circuit 2: gf180mcu_ocd_io__fillnc                            
+--------------------------------------------------------------|--------------------------------------------------------------
+VSS                                                           |VSS                                                           
+VDD                                                           |VDD                                                           
+DVSS                                                          |DVSS                                                          
+DVDD                                                          |DVDD                                                          
+-----------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_ocd_io__fillnc and gf180mcu_ocd_io__fillnc are equivalent.
+
+Final result: Verify:  cell ../netlist/schematic/gf180mcu_ocd_io__fillnc.spice has no elements and/or nodes.  Not checked.

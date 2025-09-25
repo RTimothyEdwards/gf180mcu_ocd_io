@@ -1,0 +1,10 @@
+** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/asig_5p0/gf180mcu_ocd_io__asig_5p0.sch
+.subckt gf180mcu_ocd_io__asig_5p0 ASIG5V DVDD DVSS VDD VSS
+*.PININFO DVDD:B DVSS:B VDD:B VSS:B ASIG5V:B
+D1 DVSS DVDD diode_nd2ps_06v0 area='1u * 40u ' pj='2*1u + 2*40u ' m=4
+D2 DVSS ASIG5V diode_nd2ps_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=4
+D3 ASIG5V DVDD diode_pd2nw_06v0 area='3u * 50u ' pj='2*3u + 2*50u ' m=4
+XC1 DVDD DVSS cap_nmos_06v0 c_width=15e-6 c_length=15e-6 m=36
+* noconn VDD
+* noconn VSS
+.ends

@@ -1,0 +1,301 @@
+* NGSPICE file created from gf180mcu_ocd_io__cor.ext - technology: gf180mcuD
+
+.subckt moscap_corner_1 a_5519_6541# a_5519_529# a_4904_32#
+X0 a_5519_529# a_4904_32# cap_nmos_06v0 c_width=25u c_length=10u
+X1 a_5519_6541# a_4904_32# cap_nmos_06v0 c_width=25u c_length=10u
+X2 a_5519_529# a_4904_32# cap_nmos_06v0 c_width=25u c_length=10u
+X3 a_5519_6541# a_4904_32# cap_nmos_06v0 c_width=25u c_length=10u
+.ends
+
+.subckt moscap_corner VMINUS a_647_6541# a_647_529#
+X0 a_647_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X1 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X2 a_647_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X3 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X4 a_647_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X5 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X6 a_647_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X7 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+.ends
+
+.subckt nmos_clamp_20_50_4 a_582_632# w_n51_n51# a_1237_1481#
+X0 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X1 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X2 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=22p pd=0.10088m as=13p ps=50.52u w=50u l=0.7u
+X3 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=22p pd=0.10088m as=13p ps=50.52u w=50u l=0.7u
+X4 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X5 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X6 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X7 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X8 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X9 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X10 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X11 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X12 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X13 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X14 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X15 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X16 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X17 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X18 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X19 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X20 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X21 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=22p pd=0.10088m as=13p ps=50.52u w=50u l=0.7u
+X22 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X23 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X24 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X25 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X26 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X27 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X28 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X29 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X30 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X31 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X32 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X33 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X34 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X35 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X36 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X37 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X38 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X39 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X40 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X41 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X42 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X43 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X44 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=22p ps=0.10088m w=50u l=0.7u
+X45 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X46 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X47 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X48 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X49 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X50 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X51 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=22p ps=0.10088m w=50u l=0.7u
+X52 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X53 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X54 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X55 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=22p ps=0.10088m w=50u l=0.7u
+X56 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X57 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X58 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X59 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X60 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X61 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X62 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X63 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X64 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X65 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X66 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X67 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X68 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X69 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X70 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=22p pd=0.10088m as=13p ps=50.52u w=50u l=0.7u
+X71 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X72 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X73 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X74 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X75 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=22p ps=0.10088m w=50u l=0.7u
+X76 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X77 w_n51_n51# a_1237_1481# a_582_632# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X78 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+X79 a_582_632# a_1237_1481# w_n51_n51# a_582_632# nfet_06v0 ad=13p pd=50.52u as=13p ps=50.52u w=50u l=0.7u
+.ends
+
+.subckt comp018green_esd_rc_v5p0_1 VRC VPLUS VMINUS
+X0 a_n2334_17198# a_n2054_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X1 a_n654_17198# a_n934_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X2 a_n3454_17198# a_n3174_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X3 a_n654_17198# VRC VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X4 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X5 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X6 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X7 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X8 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X9 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X10 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X11 a_n2894_17198# a_n2614_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X12 a_n1774_17198# a_n2054_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X13 a_n1214_17198# a_n1494_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X14 a_n2894_17198# a_n3174_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X15 a_n2334_17198# a_n2614_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X16 a_n1214_17198# a_n934_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X17 a_n3454_17198# VPLUS VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X18 a_n1774_17198# a_n1494_4325# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X19 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+.ends
+
+.subckt comp018green_esd_clamp_v5p0_1 top_route_0/VSUBS comp018green_esd_rc_v5p0_1_0/VPLUS
+Xnmos_clamp_20_50_4_0 top_route_0/VSUBS comp018green_esd_rc_v5p0_1_0/VPLUS a_4685_27789#
++ nmos_clamp_20_50_4
+Xcomp018green_esd_rc_v5p0_1_0 comp018green_esd_rc_v5p0_1_0/VRC comp018green_esd_rc_v5p0_1_0/VPLUS
++ top_route_0/VSUBS comp018green_esd_rc_v5p0_1
+X0 comp018green_esd_rc_v5p0_1_0/VPLUS a_2805_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X1 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X2 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X3 a_3781_27789# a_2805_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X4 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X5 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X6 top_route_0/VSUBS a_3781_27789# a_4685_27789# top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X7 a_4685_27789# a_3781_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X8 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X9 a_3781_27789# a_2805_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X10 top_route_0/VSUBS a_2805_27789# a_3781_27789# top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X11 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X12 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X13 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X14 a_3781_27789# a_2805_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X15 top_route_0/VSUBS a_3781_27789# a_4685_27789# top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X16 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X17 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X18 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X19 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X20 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X21 a_4685_27789# a_3781_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X22 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X23 a_2805_27789# comp018green_esd_rc_v5p0_1_0/VRC top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=2.2p pd=10.88u as=2.2p ps=10.88u w=5u l=0.7u
+X24 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X25 top_route_0/VSUBS a_2805_27789# a_3781_27789# top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X26 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X27 comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VRC a_2805_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X28 comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VRC a_2805_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X29 a_2805_27789# comp018green_esd_rc_v5p0_1_0/VRC comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X30 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X31 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X32 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X33 a_4685_27789# a_3781_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X34 top_route_0/VSUBS a_3781_27789# a_4685_27789# top_route_0/VSUBS nfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X35 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X36 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X37 a_3781_27789# a_2805_27789# top_route_0/VSUBS top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X38 top_route_0/VSUBS a_2805_27789# a_3781_27789# top_route_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X39 comp018green_esd_rc_v5p0_1_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X40 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X41 a_3781_27789# a_2805_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X42 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X43 a_2805_27789# comp018green_esd_rc_v5p0_1_0/VRC comp018green_esd_rc_v5p0_1_0/VPLUS comp018green_esd_rc_v5p0_1_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+.ends
+
+.subckt comp018green_esd_rc_v5p0 VRC VPLUS VMINUS
+X0 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X1 a_353_1149# a_13226_869# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X2 a_353_2269# a_13226_1989# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X3 a_353_3389# a_13226_3109# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X4 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X5 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X6 a_353_2829# a_13226_3109# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X7 a_353_1709# a_13226_1989# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X8 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X9 a_353_1709# a_13226_1429# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X10 a_353_2829# a_13226_2549# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X11 VRC a_13226_3669# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X12 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X13 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X14 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X15 VPLUS a_13226_869# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X16 a_353_1149# a_13226_1429# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X17 a_353_2269# a_13226_2549# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+X18 VRC VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X19 a_353_3389# a_13226_3669# VPLUS ppolyf_u r_width=0.8u r_length=63.855u
+.ends
+
+.subckt comp018green_esd_clamp_v5p0_2 comp018green_esd_rc_v5p0_0/VPLUS top_route_1_0/VSUBS
+Xnmos_clamp_20_50_4_0 top_route_1_0/VSUBS comp018green_esd_rc_v5p0_0/VPLUS a_4685_27789#
++ nmos_clamp_20_50_4
+Xcomp018green_esd_rc_v5p0_0 comp018green_esd_rc_v5p0_0/VRC comp018green_esd_rc_v5p0_0/VPLUS
++ top_route_1_0/VSUBS comp018green_esd_rc_v5p0
+X0 comp018green_esd_rc_v5p0_0/VPLUS a_2805_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X1 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X2 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X3 a_3781_27789# a_2805_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X4 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X5 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X6 top_route_1_0/VSUBS a_3781_27789# a_4685_27789# top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X7 a_4685_27789# a_3781_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X8 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X9 a_3781_27789# a_2805_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X10 top_route_1_0/VSUBS a_2805_27789# a_3781_27789# top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X11 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X12 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X13 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X14 a_3781_27789# a_2805_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X15 top_route_1_0/VSUBS a_3781_27789# a_4685_27789# top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X16 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X17 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X18 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X19 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X20 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X21 a_4685_27789# a_3781_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X22 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X23 a_2805_27789# comp018green_esd_rc_v5p0_0/VRC top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=2.2p pd=10.88u as=2.2p ps=10.88u w=5u l=0.7u
+X24 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X25 top_route_1_0/VSUBS a_2805_27789# a_3781_27789# top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X26 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X27 comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VRC a_2805_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X28 comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VRC a_2805_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X29 a_2805_27789# comp018green_esd_rc_v5p0_0/VRC comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=2.2p ps=10.88u w=5u l=0.7u
+X30 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X31 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X32 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X33 a_4685_27789# a_3781_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X34 top_route_1_0/VSUBS a_3781_27789# a_4685_27789# top_route_1_0/VSUBS nfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X35 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X36 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X37 a_3781_27789# a_2805_27789# top_route_1_0/VSUBS top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X38 top_route_1_0/VSUBS a_2805_27789# a_3781_27789# top_route_1_0/VSUBS nfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X39 comp018green_esd_rc_v5p0_0/VPLUS a_3781_27789# a_4685_27789# comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X40 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X41 a_3781_27789# a_2805_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=2.2p pd=10.88u as=1.3p ps=5.52u w=5u l=0.7u
+X42 a_4685_27789# a_3781_27789# comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+X43 a_2805_27789# comp018green_esd_rc_v5p0_0/VRC comp018green_esd_rc_v5p0_0/VPLUS comp018green_esd_rc_v5p0_0/VPLUS pfet_06v0 ad=1.3p pd=5.52u as=1.3p ps=5.52u w=5u l=0.7u
+.ends
+
+.subckt ESD_CLAMP_COR power_via_cor_3_0/m1_14757_49610# power_via_cor_5_0/m1_14757_35210#
++ power_via_cor_5_0/m1_14757_49610# power_via_cor_3_0/m1_14757_35210# comp018green_esd_clamp_v5p0_1_0/comp018green_esd_rc_v5p0_1_0/VPLUS
++ VSUBS comp018green_esd_clamp_v5p0_2_0/comp018green_esd_rc_v5p0_0/VPLUS
+Xcomp018green_esd_clamp_v5p0_1_0 VSUBS comp018green_esd_clamp_v5p0_1_0/comp018green_esd_rc_v5p0_1_0/VPLUS
++ comp018green_esd_clamp_v5p0_1
+Xcomp018green_esd_clamp_v5p0_2_0 comp018green_esd_clamp_v5p0_2_0/comp018green_esd_rc_v5p0_0/VPLUS
++ VSUBS comp018green_esd_clamp_v5p0_2
+.ends
+
+.subckt moscap_corner_2 VMINUS a_647_6541# a_5519_529#
+X0 a_5519_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X1 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X2 a_5519_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X3 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X4 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X5 a_647_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+.ends
+
+.subckt moscap_corner_3 VMINUS a_7955_529# a_3083_6541#
+X0 a_7955_529# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X1 a_3083_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X2 a_3083_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+X3 a_3083_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
+.ends
+
+.subckt GF_NI_COR_BASE ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_35210# ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_49610#
++ ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_35210# moscap_corner_0/a_647_6541# moscap_corner_6/a_647_529#
++ ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_49610# moscap_corner_6/a_647_6541# moscap_corner_4/a_647_529#
++ moscap_corner_0/a_647_529# VDD DVDD moscap_corner_1/a_647_529# moscap_corner_4/a_647_6541#
++ VSS
+Xmoscap_corner_1_0 moscap_corner_6/a_647_6541# moscap_corner_6/a_647_529# VSS moscap_corner_1
+Xmoscap_corner_0 VSS moscap_corner_0/a_647_6541# moscap_corner_0/a_647_529# moscap_corner
+Xmoscap_corner_1 VSS moscap_corner_1/a_647_529# moscap_corner_1/a_647_529# moscap_corner
+Xmoscap_corner_2 VSS moscap_corner_4/a_647_6541# moscap_corner_4/a_647_529# moscap_corner
+Xmoscap_corner_3 VSS moscap_corner_6/a_647_6541# moscap_corner_6/a_647_529# moscap_corner
+Xmoscap_corner_5 VSS moscap_corner_6/a_647_6541# moscap_corner_6/a_647_529# moscap_corner
+Xmoscap_corner_4 VSS moscap_corner_4/a_647_6541# moscap_corner_4/a_647_529# moscap_corner
+Xmoscap_corner_6 VSS moscap_corner_6/a_647_6541# moscap_corner_6/a_647_529# moscap_corner
+XESD_CLAMP_COR_0 ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_49610# ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_35210#
++ ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_49610# ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_35210#
++ VDD VSS DVDD ESD_CLAMP_COR
+Xmoscap_corner_2_0 VSS moscap_corner_4/a_647_6541# moscap_corner_4/a_647_529# moscap_corner_2
+Xmoscap_corner_3_0 VSS moscap_corner_1/a_647_529# moscap_corner_1/a_647_529# moscap_corner_3
+.ends
+
+.subckt gf180mcu_ocd_io__cor DVDD VDD VSS
+XGF_NI_COR_BASE_0 VSS VSS VSS DVDD DVDD VSS DVDD DVDD DVDD VDD DVDD DVDD DVDD VSS
++ GF_NI_COR_BASE
+.ends
+

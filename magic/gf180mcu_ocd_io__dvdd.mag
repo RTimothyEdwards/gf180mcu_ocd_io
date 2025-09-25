@@ -1,0 +1,199 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1758741431
+<< metal2 >>
+rect 272 69800 2172 70000
+rect 2752 69800 4802 70000
+rect 5122 69800 7172 70000
+rect 7828 69800 9878 70000
+rect 10198 69800 12248 70000
+rect 12828 69800 14728 70000
+<< metal5 >>
+rect 0 68400 1000 69678
+rect 0 66800 1000 68200
+rect 0 65200 1000 66600
+rect 0 63600 1000 65000
+rect 0 62000 1000 63400
+rect 0 60400 1000 61800
+rect 0 58800 1000 60200
+rect 0 57200 1000 58600
+rect 1500 400 13500 12400
+use 5LM_METAL_RAIL_PAD_60  5LM_METAL_RAIL_PAD_60_0
+timestamp 1586916644
+transform 1 0 0 0 1 0
+box -32 0 15032 69968
+use GF_NI_DVDD_BASE  GF_NI_DVDD_BASE_0
+timestamp 1758741431
+transform 1 0 11 0 1 12400
+box -11 0 14989 57600
+<< labels >>
+rlabel metal3 s 716 18832 716 18832 4 DVSS
+port 2 nsew
+rlabel metal3 s 763 15661 763 15661 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 47506 785 47506 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 40253 785 40253 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 26011 785 26011 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 21818 785 21818 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 57769 785 57769 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 60969 785 60969 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 65934 785 65934 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 68960 785 68960 4 DVSS
+port 2 nsew
+rlabel metal3 s 785 49934 785 49934 4 VSS
+port 4 nsew
+rlabel metal3 s 785 64169 785 64169 4 VSS
+port 4 nsew
+rlabel metal3 s 785 67369 785 67369 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 59534 785 59534 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 56334 785 56334 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 54569 785 54569 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 53134 785 53134 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 41888 785 41888 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 44279 785 44279 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 37870 785 37870 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 34634 785 34634 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 31520 785 31520 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 28305 785 28305 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 24195 785 24195 4 DVDD
+port 1 nsew
+rlabel metal4 s 716 18832 716 18832 4 DVSS
+port 2 nsew
+rlabel metal4 s 763 15661 763 15661 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 47506 785 47506 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 40253 785 40253 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 26011 785 26011 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 21818 785 21818 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 57769 785 57769 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 60969 785 60969 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 65934 785 65934 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 68960 785 68960 4 DVSS
+port 2 nsew
+rlabel metal4 s 785 49934 785 49934 4 VSS
+port 4 nsew
+rlabel metal4 s 785 64169 785 64169 4 VSS
+port 4 nsew
+rlabel metal4 s 785 67369 785 67369 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 59534 785 59534 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 56334 785 56334 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 54569 785 54569 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 53134 785 53134 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 41888 785 41888 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 44279 785 44279 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 37870 785 37870 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 34634 785 34634 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 31520 785 31520 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 28305 785 28305 4 DVDD
+port 1 nsew
+rlabel metal4 s 785 24195 785 24195 4 DVDD
+port 1 nsew
+rlabel metal5 s 716 18832 716 18832 4 DVSS
+port 2 nsew
+rlabel metal5 s 763 15661 763 15661 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 47506 785 47506 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 40253 785 40253 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 26011 785 26011 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 21818 785 21818 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 57769 785 57769 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 60969 785 60969 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 65934 785 65934 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 68960 785 68960 4 DVSS
+port 2 nsew
+rlabel metal5 s 785 49934 785 49934 4 VSS
+port 4 nsew
+rlabel metal5 s 785 64169 785 64169 4 VSS
+port 4 nsew
+rlabel metal5 s 785 67369 785 67369 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 59534 785 59534 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 56334 785 56334 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 54569 785 54569 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 53134 785 53134 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 41888 785 41888 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 44279 785 44279 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 37870 785 37870 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 34634 785 34634 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 31520 785 31520 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 28305 785 28305 4 DVDD
+port 1 nsew
+rlabel metal5 s 785 24195 785 24195 4 DVDD
+port 1 nsew
+rlabel metal5 s 1500 400 13500 12400 4 DVDD
+port 1 nsew
+rlabel metal2 s 1222 69900 1222 69900 4 DVDD
+port 1 nsew
+rlabel metal2 s 3777 69900 3777 69900 4 DVDD
+port 1 nsew
+rlabel metal2 s 6147 69900 6147 69900 4 DVDD
+port 1 nsew
+rlabel metal2 s 8853 69900 8853 69900 4 DVDD
+port 1 nsew
+rlabel metal2 s 11223 69900 11223 69900 4 DVDD
+port 1 nsew
+rlabel metal2 s 13778 69900 13778 69900 4 DVDD
+port 1 nsew
+rlabel metal3 s 785 62734 785 62734 4 VDD
+port 3 nsew
+rlabel metal3 s 785 51369 785 51369 4 VDD
+port 3 nsew
+rlabel metal5 s 785 62734 785 62734 4 VDD
+port 3 nsew
+rlabel metal5 s 785 51369 785 51369 4 VDD
+port 3 nsew
+<< properties >>
+string FIXED_BBOX 0 0 15000 70000
+<< end >>

@@ -1,0 +1,13 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1586916644
+use 5LM_METAL_RAIL  5LM_METAL_RAIL_0
+timestamp 1586916644
+transform 1 0 0 0 1 0
+box -32 13097 15032 69968
+use Bondpad_5LM  Bondpad_5LM_0
+timestamp 1586916644
+transform 1 0 1100 0 1 0
+box -400 0 13200 13065
+<< end >>

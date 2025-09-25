@@ -18,35 +18,41 @@ K {}
 V {}
 S {}
 E {}
-N -210 650 70 650 { lab=PU}
-N -210 650 -210 890 { lab=PU}
-N -80 890 10 890 { lab=#net1}
-N -30 710 -30 990 { lab=PD}
-N -80 990 -30 990 { lab=PD}
-N 10 770 70 770 { lab=#net2}
-N 70 690 70 770 { lab=#net2}
+N -110 890 -20 890 { lab=#net1}
+N -60 710 -60 990 { lab=PD}
+N -110 990 -60 990 { lab=PD}
+N -20 770 40 770 { lab=#net2}
 N 820 730 820 970 { lab=#net3}
 N 860 700 990 700 { lab=#net4}
 N 990 1180 1100 1180 { lab=PAD}
 N 950 850 970 850 { lab=DVDD}
-N -210 990 -80 990 { lab=PD}
+N -240 990 -110 990 { lab=PD}
 N 970 730 970 850 { lab=DVDD}
 N 670 590 670 670 { lab=#net5}
 N 670 670 820 670 { lab=#net5}
 N 970 850 970 1150 { lab=DVDD}
-N -80 990 -80 1060 { lab=PD}
-N 50 710 50 1060 { lab=#net6}
+N -110 990 -110 1060 { lab=PD}
+N 20 710 20 1060 { lab=#net6}
 N 860 640 860 670 { lab=DVDD}
 N 860 730 860 760 { lab=DVSS}
-N 70 950 90 950 { lab=#net2}
-N 70 770 70 950 { lab=#net2}
-N -30 990 90 990 { lab=PD}
-C {io_xfer_1.sym} 10 670 3 1 {name=x16}
-C {io_xfer_1.sym} 10 870 1 1 {name=x17}
-C {devices/ipin.sym} -210 650 0 0 {name=p6 lab=PU}
-C {io_inv_1.sym} -190 890 0 0 {name=x18}
-C {devices/ipin.sym} -200 990 0 0 {name=p7 lab=PD}
-C {io_inv_1.sym} -60 1060 0 0 {name=x19}
+N 40 770 40 950 { lab=#net2}
+N -60 990 90 990 {lab=PD}
+N 40 950 90 950 {lab=#net2}
+N 40 650 40 770 {lab=#net2}
+N 40 650 70 650 {lab=#net2}
+N -260 630 -260 890 {lab=PU}
+N -260 890 -240 890 {lab=PU}
+N -260 630 -20 630 {lab=PU}
+N -20 630 -20 650 {lab=PU}
+N -20 630 60 630 {lab=PU}
+N 60 630 60 690 {lab=PU}
+N 60 690 70 690 {lab=PU}
+C {io_xfer_1.sym} -20 670 3 1 {name=x16}
+C {io_xfer_1.sym} -20 870 1 1 {name=x17}
+C {devices/ipin.sym} -260 630 0 0 {name=p6 lab=PU}
+C {io_inv_1.sym} -220 890 0 0 {name=x18}
+C {devices/ipin.sym} -230 990 0 0 {name=p7 lab=PD}
+C {io_inv_1.sym} -90 1060 0 0 {name=x19}
 C {io_nand2_1.sym} 90 670 0 0 {name=x20}
 C {io_nand2_1.sym} 110 970 0 0 {name=x21}
 C {io_inv_1.sym} 220 670 0 0 {name=x22}
@@ -149,21 +155,21 @@ C {gnd.sym} 580 1010 0 0 {name=l14 lab=DVSS}
 C {vdd.sym} 580 930 0 0 {name=l15 lab=DVDD}
 C {gnd.sym} 710 1010 0 0 {name=l16 lab=DVSS}
 C {vdd.sym} 710 930 0 0 {name=l17 lab=DVDD}
-C {gnd.sym} -190 930 0 0 {name=l18 lab=VSS}
-C {vdd.sym} -190 850 0 0 {name=l19 lab=VDD}
-C {gnd.sym} -60 1100 0 0 {name=l20 lab=VSS}
-C {vdd.sym} -60 1020 0 0 {name=l21 lab=VDD}
-C {devices/iopin.sym} -210 540 0 0 {name=p1 lab=VDD}
-C {devices/iopin.sym} -210 560 0 0 {name=p2 lab=VSS}
+C {gnd.sym} -220 930 0 0 {name=l18 lab=VSS}
+C {vdd.sym} -220 850 0 0 {name=l19 lab=VDD}
+C {gnd.sym} -90 1100 0 0 {name=l20 lab=VSS}
+C {vdd.sym} -90 1020 0 0 {name=l21 lab=VDD}
+C {devices/iopin.sym} -240 510 0 0 {name=p1 lab=VDD}
+C {devices/iopin.sym} -240 530 0 0 {name=p2 lab=VSS}
 C {gnd.sym} 860 760 0 0 {name=l22 lab=DVSS}
 C {vdd.sym} 860 640 0 0 {name=l23 lab=DVDD}
 C {vdd.sym} 950 850 0 1 {name=l28 lab=DVDD}
-C {vdd.sym} -10 680 0 1 {name=l24 lab=VDD}
-C {vdd.sym} 30 860 0 1 {name=l25 lab=VDD}
-C {gnd.sym} 30 680 0 0 {name=l26 lab=VSS}
-C {gnd.sym} -10 860 0 0 {name=l27 lab=VSS}
-C {devices/iopin.sym} -210 590 0 0 {name=p3 lab=DVDD}
-C {devices/iopin.sym} -210 610 0 0 {name=p4 lab=DVSS}
+C {vdd.sym} -40 680 0 1 {name=l24 lab=VDD}
+C {vdd.sym} 0 860 0 1 {name=l25 lab=VDD}
+C {gnd.sym} 0 680 0 0 {name=l26 lab=VSS}
+C {gnd.sym} -40 860 0 0 {name=l27 lab=VSS}
+C {devices/iopin.sym} -240 560 0 0 {name=p3 lab=DVDD}
+C {devices/iopin.sym} -240 580 0 0 {name=p4 lab=DVSS}
 C {io_lvlshft.sym} 500 970 0 0 {name=x1}
 C {io_lvlshft.sym} 480 670 0 0 {name=x2}
 C {vdd.sym} 410 600 0 0 {name=l29 lab=VDD}

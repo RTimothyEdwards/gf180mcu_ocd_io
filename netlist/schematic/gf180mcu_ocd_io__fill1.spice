@@ -1,0 +1,8 @@
+** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/fill1/gf180mcu_ocd_io__fill1.sch
+.subckt gf180mcu_ocd_io__fill1 DVDD DVSS VDD VSS
+*.PININFO DVDD:B DVSS:B VDD:B VSS:B
+* noconn VDD
+* noconn VSS
+* noconn DVDD
+* noconn DVSS
+.ends

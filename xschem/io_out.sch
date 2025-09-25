@@ -1,5 +1,4 @@
 v {xschem version=3.4.6 file_version=1.2
-
 * Copyright 2023 David Mitchell Bailey
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,7 +21,7 @@ E {}
 N 260 -310 260 -240 { lab=#net1}
 N 390 -530 450 -530 { lab=#net2}
 N -300 110 -300 470 { lab=OE}
-N -300 -550 -210 -550 { lab=OE}
+N -300 -510 -210 -510 { lab=OE}
 N -300 -70 -210 -70 { lab=OE}
 N -300 190 -210 190 { lab=OE}
 N -300 470 -210 470 { lab=OE}
@@ -62,7 +61,6 @@ N 800 -90 800 450 { lab=PAD}
 N 450 -530 450 -130 {lab=#net2}
 N 430 -310 430 -70 {lab=#net8}
 N 410 -240 410 -50 {lab=#net1}
-N -300 -550 -300 -70 {lab=OE}
 N -250 430 -210 430 {lab=VDD}
 N -250 400 -250 430 {lab=VDD}
 N 260 70 260 250 {lab=#net9}
@@ -71,7 +69,7 @@ N 260 -190 260 -90 {lab=#net3}
 N 260 -190 380 -190 {lab=#net3}
 N 380 -190 380 -110 {lab=#net3}
 N -240 -310 -210 -310 {lab=SL}
-N -240 -510 -210 -510 {lab=A}
+N -240 -550 -210 -550 {lab=A}
 N 260 350 260 450 {lab=#net6}
 N 260 350 380 350 {lab=#net6}
 N 380 350 380 430 {lab=#net6}
@@ -80,6 +78,7 @@ N 770 -90 800 -90 {lab=PAD}
 N 770 90 800 90 {lab=PAD}
 N 770 270 800 270 {lab=PAD}
 N 770 450 800 450 {lab=PAD}
+N -300 -510 -300 -70 {lab=OE}
 C {io_nand2_1.sym} -190 -530 0 0 {name=x1}
 C {io_inv_2.sym} 150 -530 0 0 {name=x2}
 C {io_inv_2.sym} 280 -530 0 0 {name=x3}
@@ -122,10 +121,10 @@ C {vdd.sym} -190 410 0 0 {name=l28 lab=VDD}
 C {vdd.sym} 150 410 0 0 {name=l29 lab=DVDD}
 C {gnd.sym} 620 -20 0 0 {name=l31 lab=DVSS}
 C {vdd.sym} 620 -160 0 0 {name=l32 lab=DVDD}
-C {devices/ipin.sym} -300 -550 0 0 {name=p1 lab=OE}
+C {devices/ipin.sym} -300 -510 0 0 {name=p1 lab=OE}
 C {devices/iopin.sym} -160 260 0 1 {name=p2 lab=VDD}
 C {devices/opin.sym} 820 160 0 0 {name=p3 lab=PAD}
-C {devices/ipin.sym} -240 -510 0 0 {name=p4 lab=A}
+C {devices/ipin.sym} -240 -550 0 0 {name=p4 lab=A}
 C {devices/ipin.sym} -240 -310 0 0 {name=p5 lab=SL}
 C {devices/ipin.sym} -210 -110 0 0 {name=p6 lab=PDRV0}
 C {devices/ipin.sym} -210 150 0 0 {name=p7 lab=PDRV1}
