@@ -61,14 +61,14 @@ Flattening unmatched subcell comp018green_esd_rc_v5p0 in circuit gf180mcu_ocd_io
 Flattening unmatched subcell nmos_clamp_20_50_4_DVDD in circuit gf180mcu_ocd_io__dvdd (0)(1 instance)
 Flattening unmatched subcell x5LM_METAL_RAIL_PAD_60 in circuit gf180mcu_ocd_io__dvdd (0)(1 instance)
 
-Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VSS
+Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (1) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (1) disconnected node: VSS
 Class gf180mcu_ocd_io__dvdd (0):  Merged 130 parallel devices.
 Class gf180mcu_ocd_io__dvdd (0):  Merged 11 series devices.
-Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VSS
+Cell gf180mcu_ocd_io__dvdd (0) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (1) disconnected node: VDD
 Cell gf180mcu_ocd_io__dvdd (1) disconnected node: VSS
 Subcircuit summary:
@@ -89,8 +89,8 @@ Circuit 1: gf180mcu_ocd_io__dvdd                              |Circuit 2: gf180m
 --------------------------------------------------------------|--------------------------------------------------------------
 DVSS                                                          |DVSS                                                          
 DVDD                                                          |DVDD                                                          
-VDD                                                           |VDD                                                           
 VSS                                                           |VSS                                                           
+VDD                                                           |VDD                                                           
 -----------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes gf180mcu_ocd_io__dvdd and gf180mcu_ocd_io__dvdd are equivalent.

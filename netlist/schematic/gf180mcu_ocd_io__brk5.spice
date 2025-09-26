@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/brk5/gf180mcu_ocd_io__brk5.sch
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/cells/brk5/gf180mcu_ocd_io__brk5.sch
 .subckt gf180mcu_ocd_io__brk5 VSS
 *.PININFO VSS:B
 * noconn VSS

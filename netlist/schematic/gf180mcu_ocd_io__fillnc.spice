@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/fillnc/gf180mcu_ocd_io__fillnc.sch
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/cells/fillnc/gf180mcu_ocd_io__fillnc.sch
 .subckt gf180mcu_ocd_io__fillnc DVDD DVSS VDD VSS
 *.PININFO DVDD:B DVSS:B VDD:B VSS:B
 * noconn VDD

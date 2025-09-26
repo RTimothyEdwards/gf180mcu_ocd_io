@@ -308,9 +308,9 @@ Xcomp018green_in_logic_pupd_0 comp018green_sigbuf_0/IN comp018green_sigbuf_2/IN 
 Xcomp018green_sigbuf_0 comp018green_sigbuf_0/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_0/ZB comp018green_sigbuf_0/INB comp018green_sigbuf_0/IN comp018green_sigbuf
 Xlv_inv_18 VSUBS comp018green_sigbuf_3/IN CS w_25_1008# lv_inv
+Xlv_inv_19 VSUBS comp018green_sigbuf_3/INB comp018green_sigbuf_3/IN w_25_1008# lv_inv
 Xcomp018green_sigbuf_1 comp018green_sigbuf_1/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_1/ZB comp018green_sigbuf_1/INB comp018green_sigbuf_1/IN comp018green_sigbuf
-Xlv_inv_19 VSUBS comp018green_sigbuf_3/INB comp018green_sigbuf_3/IN w_25_1008# lv_inv
 Xcomp018green_sigbuf_2 comp018green_sigbuf_2/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_2/ZB comp018green_sigbuf_2/INB comp018green_sigbuf_2/IN comp018green_sigbuf
 Xcomp018green_sigbuf_3 comp018green_sigbuf_3/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
@@ -377,23 +377,23 @@ Xcomp018green_out_predrv_0 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB 
 + comp018green_out_predrv_0/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
 + comp018green_out_predrv_3/DVDD ndrive_y_<0> pdrive_y_<0> pdrive_x_<0> comp018green_out_predrv_0/EN
 + comp018green_out_predrv
-Xcomp018green_out_predrv_1 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB ndrive_x_<3>
-+ comp018green_out_predrv_1/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
-+ comp018green_out_predrv_3/DVDD ndrive_Y_<3> pdrive_y_<3> pdrive_x_<3> comp018green_out_predrv_1/EN
-+ comp018green_out_predrv
+Xcomp018green_out_sigbuf_a_0 comp018green_out_predrv_3/A comp018green_sigbuf_1_0/DVSS
++ comp018green_sigbuf_1_0/DVDD m1_9257_38818# m1_9154_38525# comp018green_out_sigbuf_a
 Xcomp018green_out_predrv_2 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB ndrive_x_<2>
 + comp018green_out_predrv_3/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
 + comp018green_out_predrv_3/DVDD ndrive_y_<2> pdrive_y_<2> pdrive_x_<2> comp018green_out_predrv_3/EN
 + comp018green_out_predrv
-Xcomp018green_out_sigbuf_a_0 comp018green_out_predrv_3/A comp018green_sigbuf_1_0/DVSS
-+ comp018green_sigbuf_1_0/DVDD m1_9257_38818# m1_9154_38525# comp018green_out_sigbuf_a
-Xcomp018green_out_predrv_3 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB ndrive_x_<1>
-+ comp018green_out_predrv_3/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
-+ comp018green_out_predrv_3/DVDD ndrive_Y_<1> pdrive_y_<1> pdrive_x_<1> comp018green_out_predrv_3/EN
+Xcomp018green_out_predrv_1 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB ndrive_x_<3>
++ comp018green_out_predrv_1/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
++ comp018green_out_predrv_3/DVDD ndrive_Y_<3> pdrive_y_<3> pdrive_x_<3> comp018green_out_predrv_1/EN
 + comp018green_out_predrv
 Xcomp018green_out_sigbuf_oe_0 comp018green_out_predrv_0/ENB comp018green_sigbuf_1_0/DVDD
 + comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_0/EN m1_1207_38806# m1_1202_38534#
 + comp018green_out_sigbuf_oe
+Xcomp018green_out_predrv_3 comp018green_sigbuf_1_0/Z comp018green_sigbuf_1_0/ZB ndrive_x_<1>
++ comp018green_out_predrv_3/ENB comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/A
++ comp018green_out_predrv_3/DVDD ndrive_Y_<1> pdrive_y_<1> pdrive_x_<1> comp018green_out_predrv_3/EN
++ comp018green_out_predrv
 Xcomp018green_inpath_cms_smt_0 comp018green_esd_cdm_0/IP_IN IE CS PU comp018green_inpath_cms_smt_0/comp018green_in_drv_0/VDD
 + w_11000_43887# m1_3608_46684# comp018green_esd_cdm_0/IP_IN comp018green_inpath_cms_smt_0/m3_9619_4882#
 + comp018green_inpath_cms_smt_0/m3_9619_3696# comp018green_esd_cdm_0/DVSS comp018green_inpath_cms_smt_0/comp018green_in_drv_0/VDD
@@ -401,11 +401,11 @@ Xcomp018green_inpath_cms_smt_0 comp018green_esd_cdm_0/IP_IN IE CS PU comp018gree
 + Y comp018green_inpath_cms_smt_0/VSUBS comp018green_inpath_cms_smt_0/m1_10570_5335#
 + PD comp018green_inpath_cms_smt_0/comp018green_in_drv_0/VSS comp018green_inpath_cms_smt_0/comp018green_sigbuf_3/DVDD
 + comp018green_inpath_cms_smt
-Xcomp018green_out_sigbuf_oe_1 comp018green_out_predrv_3/ENB comp018green_sigbuf_1_0/DVDD
-+ comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/EN m1_4626_36747# m1_4788_38523#
-+ comp018green_out_sigbuf_oe
 Xcomp018green_out_sigbuf_oe_2 comp018green_out_predrv_1/ENB comp018green_sigbuf_1_0/DVDD
 + comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_1/EN m1_5084_37107# m1_5236_36986#
++ comp018green_out_sigbuf_oe
+Xcomp018green_out_sigbuf_oe_1 comp018green_out_predrv_3/ENB comp018green_sigbuf_1_0/DVDD
++ comp018green_sigbuf_1_0/DVSS comp018green_out_predrv_3/EN m1_4626_36747# m1_4788_38523#
 + comp018green_out_sigbuf_oe
 Xlv_inv_0 comp018green_esd_cdm_0/VSUBS m1_1207_38806# m1_1202_38534# a_13720_39306#
 + lv_inv
@@ -447,7 +447,7 @@ X12 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_in
 X13 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_in_drv_0/VSS cap_nmos_06v0 c_width=5u c_length=1.5u
 .ends
 
-.subckt gf180mcu_ocd_io__bi_t VSS VDD DVSS DVDD PAD CS PU PDRV0 PDRV1 PD IE SL A OE
+.subckt gf180mcu_ocd_io__bi_t A CS DVDD DVSS IE OE PAD PD PDRV0 PDRV1 PU SL VDD VSS
 + Y
 X5LM_METAL_RAIL_PAD_60_0 VSS PAD VDD VSS DVSS DVDD x5LM_METAL_RAIL_PAD_60
 XGF_NI_BI_T_BASE_0 PD IE SL A OE CS PU PDRV0 PDRV1 Y GF_NI_BI_T_BASE_0/ndrive_y_<0>

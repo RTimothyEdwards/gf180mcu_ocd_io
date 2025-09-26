@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/dvdd/gf180mcu_ocd_io__dvdd.sch
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/cells/dvdd/gf180mcu_ocd_io__dvdd.sch
 .subckt gf180mcu_ocd_io__dvdd DVDD DVSS VDD VSS
 *.PININFO DVDD:B DVSS:B VDD:B VSS:B
 D1 DVSS DVDD diode_nd2ps_06v0 area='40u * 1u ' pj='2*40u + 2*1u ' m=4

@@ -441,7 +441,7 @@ X11 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_in
 + 5LM_METAL_RAIL_0/VSS 5LM_METAL_RAIL_0/DVDD 5LM_METAL_RAIL_0/DVSS
 .ends
 
-.subckt gf180mcu_ocd_io__bi_24t VSS VDD DVSS DVDD PAD CS PU PD IE SL A OE Y
+.subckt gf180mcu_ocd_io__bi_24t A CS DVDD DVSS IE OE PAD PD PU SL VDD VSS Y
 XGF_NI_BI_24T_BASE_0 PD IE SL A OE CS PU Y GF_NI_BI_24T_BASE_0/ndrive_y_<0> GF_NI_BI_24T_BASE_0/ndrive_x_<0>
 + GF_NI_BI_24T_BASE_0/ndrive_x_<1> GF_NI_BI_24T_BASE_0/ndrive_Y_<1> GF_NI_BI_24T_BASE_0/ndrive_x_<2>
 + GF_NI_BI_24T_BASE_0/ndrive_y_<2> GF_NI_BI_24T_BASE_0/ndrive_x_<3> GF_NI_BI_24T_BASE_0/ndrive_Y_<3>

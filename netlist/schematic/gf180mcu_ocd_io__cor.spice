@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/cor/gf180mcu_ocd_io__cor.sch
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/cells/cor/gf180mcu_ocd_io__cor.sch
 .subckt gf180mcu_ocd_io__cor DVDD DVSS VDD VSS
 *.PININFO DVDD:B DVSS:B VSS:B VDD:B
 XC1 DVDD DVSS cap_nmos_06v0 c_width=25e-6 c_length=10e-6 m=70

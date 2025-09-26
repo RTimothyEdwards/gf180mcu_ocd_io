@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1758818510
+timestamp 1758892345
 << metal2 >>
 rect 1193 69741 1269 69970
 rect 2066 69741 2142 69970
@@ -65,7 +65,7 @@ timestamp 1586916644
 transform 1 0 0 0 1 0
 box -32 0 15032 69968
 use GF_NI_IN_C_BASE  GF_NI_IN_C_BASE_0
-timestamp 1758816708
+timestamp 1758892345
 transform 1 0 -32 0 1 12400
 box 0 0 15064 57570
 << labels >>
@@ -184,6 +184,6 @@ port 2 nsew ground bidirectional
 << properties >>
 string FIXED_BBOX 0 0 15000 70000
 string LEFclass PAD INPUT
-string LEFsymmetry X Y R90
 string LEFsite GF_IO_Site
+string LEFsymmetry X Y R90
 << end >>

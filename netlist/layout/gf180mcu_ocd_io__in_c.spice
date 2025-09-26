@@ -313,9 +313,9 @@ Xcomp018green_in_logic_pupd_0 comp018green_sigbuf_0/IN comp018green_sigbuf_2/IN 
 Xcomp018green_sigbuf_0 comp018green_sigbuf_0/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_0/ZB comp018green_sigbuf_0/INB comp018green_sigbuf_0/IN comp018green_sigbuf
 Xlv_inv_18 VSUBS comp018green_sigbuf_3/IN CS w_25_1008# lv_inv
+Xlv_inv_19 VSUBS comp018green_sigbuf_3/INB comp018green_sigbuf_3/IN w_25_1008# lv_inv
 Xcomp018green_sigbuf_1 comp018green_sigbuf_1/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_1/ZB comp018green_sigbuf_1/INB comp018green_sigbuf_1/IN comp018green_sigbuf
-Xlv_inv_19 VSUBS comp018green_sigbuf_3/INB comp018green_sigbuf_3/IN w_25_1008# lv_inv
 Xcomp018green_sigbuf_2 comp018green_sigbuf_2/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_2/ZB comp018green_sigbuf_2/INB comp018green_sigbuf_2/IN comp018green_sigbuf
 Xcomp018green_sigbuf_3 comp018green_sigbuf_3/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
@@ -451,7 +451,7 @@ X10 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_in
 X11 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_in_drv_0/VSS cap_nmos_06v0 c_width=5u c_length=1.5u
 .ends
 
-.subckt gf180mcu_ocd_io__in_c VSS VDD DVSS DVDD PAD PU PD Y
+.subckt gf180mcu_ocd_io__in_c DVDD DVSS PAD PD PU VDD VSS Y
 X5LM_METAL_RAIL_PAD_60_0 VSS PAD VDD VSS DVSS DVDD x5LM_METAL_RAIL_PAD_60
 XGF_NI_IN_C_BASE_0 PD PU Y GF_NI_IN_C_BASE_0/ndrive_y_<0> GF_NI_IN_C_BASE_0/ndrive_x_<0>
 + GF_NI_IN_C_BASE_0/ndrive_x_<1> GF_NI_IN_C_BASE_0/ndrive_Y_<1> GF_NI_IN_C_BASE_0/ndrive_x_<2>

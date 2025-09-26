@@ -1,5 +1,5 @@
 * NGSPICE file created from gf180mcu_ocd_io__fill1.ext - technology: gf180mcuD
 
-.subckt gf180mcu_ocd_io__fill1 DVDD DVSS VSS VDD
+.subckt gf180mcu_ocd_io__fill1 DVDD DVSS VDD VSS
 .ends
 

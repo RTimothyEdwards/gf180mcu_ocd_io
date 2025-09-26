@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/cells/bi_24t/gf180mcu_ocd_io__bi_24t.sch
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/cells/bi_24t/gf180mcu_ocd_io__bi_24t.sch
 .subckt gf180mcu_ocd_io__bi_24t A CS DVDD DVSS IE OE PAD PD PU SL VDD VSS Y
 *.PININFO A:I VDD:B Y:O VSS:B DVDD:B DVSS:B PU:I PD:I SL:I OE:I CS:I IE:I PAD:B
 XR206 PAD net1 DVDD ppolyf_u r_width=2.5e-6 r_length=2.8e-6 m=1
@@ -27,8 +27,8 @@ D12 VSS net3 diode_pd2nw_03v3 area='0.48u * 0.48u ' pj='2*0.48u + 2*0.48u ' m=1
 .ends
 
 * expanding   symbol:  io_out_24.sym # of pins=10
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_out_24.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_out_24.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_out_24.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_out_24.sch
 .subckt io_out_24 OE A SL PAD DVDD DVSS VDD VSS PDRV0 PDRV1
 *.PININFO OE:I VDD:B PAD:O A:I SL:I PDRV0:I PDRV1:I VSS:B DVDD:B DVSS:B
 x1 A net10 OE VDD VSS io_nand2_1
@@ -59,8 +59,8 @@ x16 net1 net2 net6 PAD net8 DVDD DVSS net7 drive_select_24
 
 
 * expanding   symbol:  io_in.sym # of pins=8
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_in.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_in.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_in.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_in.sch
 .subckt io_in PAD IE CS Y DVDD DVSS VDD VSS
 *.PININFO IE:I Y:O CS:I PAD:I VDD:B VSS:B DVDD:B DVSS:B
 x4 IE net9 VDD VSS io_inv_1
@@ -103,8 +103,8 @@ x2 DVDD VDD net9 net10 VSS DVSS io_lvlshft
 
 
 * expanding   symbol:  io_pupd.sym # of pins=7
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_pupd.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_pupd.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_pupd.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_pupd.sch
 .subckt io_pupd DVDD DVSS PU PD PAD VDD VSS
 *.PININFO PU:I PD:I PAD:O VDD:B VSS:B DVDD:B DVSS:B
 x16 PU net2 PD net6 VDD VSS io_xfer_1
@@ -138,8 +138,8 @@ x2 DVDD VDD net9 net10 VSS DVSS io_lvlshft
 
 
 * expanding   symbol:  io_nand2_1.sym # of pins=5
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_nand2_1.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_nand2_1.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_nand2_1.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_nand2_1.sch
 .subckt io_nand2_1 IN0 OUT IN1 VDD VSS
 *.PININFO OUT:O IN0:I IN1:I VDD:B VSS:B
 XM5 net1 IN1 VSS VSS nfet_03v3 L=0.28u W=0.6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -154,8 +154,8 @@ XM2 OUT IN0 VDD VDD pfet_03v3 L=0.28u W=1.2u nf=1 ad='int((nf+1)/2) * W/nf * 0.1
 
 
 * expanding   symbol:  io_inv_2.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_2.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_2.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_2.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_2.sch
 .subckt io_inv_2 IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM1 OUT IN VDD VDD pfet_06v0 L=0.70u W=6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -166,8 +166,8 @@ XM3 OUT IN VSS VSS nfet_06v0 L=0.70u W=3u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u'
 
 
 * expanding   symbol:  io_inv_1.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_1.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_1.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_1.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_1.sch
 .subckt io_inv_1 IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM2 OUT IN VSS VSS nfet_03v3 L=0.28u W=0.6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -178,8 +178,8 @@ XM4 OUT IN VDD VDD pfet_03v3 L=0.28u W=1.2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18
 
 
 * expanding   symbol:  io_lvlshft.sym # of pins=6
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_lvlshft.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_lvlshft.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_lvlshft.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_lvlshft.sch
 .subckt io_lvlshft DVDD VDD IN OUT VSS DVSS
 *.PININFO OUT:O IN:I VDD:B VSS:B DVSS:B DVDD:B
 XM2 INB IN VSS VSS nfet_03v3 L=0.28u W=0.6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -198,8 +198,8 @@ XM6 net1 OUT DVDD DVDD pfet_06v0 L=0.7u W=1.5u nf=1 ad='int((nf+1)/2) * W/nf * 0
 
 
 * expanding   symbol:  drive_select_24.sym # of pins=8
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/drive_select_24.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/drive_select_24.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/drive_select_24.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/drive_select_24.sch
 .subckt drive_select_24 FAST_N IN ENABLE OUT FAST VDD VSS ENABLE_N
 *.PININFO IN:I ENABLE:I FAST:I FAST_N:I OUT:O VDD:B VSS:B ENABLE_N:I
 XI121 net1 ENABLE VDD VDD pfet_06v0 L=0.70u W=12u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -240,8 +240,8 @@ XI112 net4 FAST net6 VSS nfet_06v0 L=0.7u W=12u nf=1 ad='int((nf+1)/2) * W/nf * 
 
 
 * expanding   symbol:  io_inv_3.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_3.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_3.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_3.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_3.sch
 .subckt io_inv_3 IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM1 OUT IN VDD VDD pfet_06v0 L=0.70u W=8u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -252,8 +252,8 @@ XM3 OUT IN VSS VSS nfet_06v0 L=0.70u W=4u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u'
 
 
 * expanding   symbol:  io_xfer_1i.sym # of pins=6
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_xfer_1i.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_xfer_1i.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_xfer_1i.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_xfer_1i.sch
 .subckt io_xfer_1i IN OUT P N VDD VSS
 *.PININFO OUT:O IN:I N:I P:I VDD:B VSS:B
 XM1 OUT P IN VDD pfet_06v0 L=0.70u W=2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -264,8 +264,8 @@ XM3 OUT N IN VSS nfet_06v0 L=0.70u W=1.5u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u'
 
 
 * expanding   symbol:  io_inv_1i.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_1i.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_1i.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_1i.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_1i.sch
 .subckt io_inv_1i IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM1 OUT IN VDD VDD pfet_06v0 L=0.70u W=2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -276,8 +276,8 @@ XM3 OUT IN VSS VSS nfet_06v0 L=0.70u W=8u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u'
 
 
 * expanding   symbol:  io_inv_2i.sym # of pins=6
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_2i.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_2i.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_2i.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_2i.sch
 .subckt io_inv_2i IN OUT VDD VSS DVDD DVSS
 *.PININFO OUT:O IN:I VDD:B VSS:B DVDD:B DVSS:B
 XM1 OUT IN VDD DVDD pfet_06v0 L=0.70u W=10u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -288,8 +288,8 @@ XM3 OUT IN VSS DVSS nfet_06v0 L=0.70u W=2.5u nf=1 ad='int((nf+1)/2) * W/nf * 0.1
 
 
 * expanding   symbol:  io_inv_3i.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_3i.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_3i.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_3i.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_3i.sch
 .subckt io_inv_3i IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM2 OUT IN VDD VDD pfet_03v3 L=0.28u W=8.4u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -300,8 +300,8 @@ XM4 OUT IN VSS VSS nfet_03v3 L=0.28u W=3.6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18
 
 
 * expanding   symbol:  io_xfer_1.sym # of pins=6
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_xfer_1.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_xfer_1.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_xfer_1.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_xfer_1.sch
 .subckt io_xfer_1 IN OUT P N VDD VSS
 *.PININFO OUT:O IN:I N:I P:I VDD:B VSS:B
 XM2 OUT N IN VSS nfet_03v3 L=0.28u W=0.6u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -312,8 +312,8 @@ XM4 OUT P IN VDD pfet_03v3 L=0.28u W=1.2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u'
 
 
 * expanding   symbol:  io_inv_4.sym # of pins=4
-** sym_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_4.sym
-** sch_path: /home/tim/gits/gf180mcu_ocd_io/xschem/io_inv_4.sch
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_4.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_io/xschem/io_inv_4.sch
 .subckt io_inv_4 IN OUT VDD VSS
 *.PININFO OUT:O IN:I VDD:B VSS:B
 XM1 OUT IN VDD VDD pfet_06v0 L=0.70u W=24u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'

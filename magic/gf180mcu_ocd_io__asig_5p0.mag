@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1758818980
+timestamp 1758894419
 << metal2 >>
 rect 3068 69600 3576 70000
 rect 4204 69600 4712 70000
@@ -90,8 +90,6 @@ flabel metal2 s 10288 69600 10796 70000 0 FreeSans 1600 0 0 0 ASIG5V
 port 1 nsew signal bidirectional
 flabel metal2 s 11424 69600 11932 70000 0 FreeSans 1600 0 0 0 ASIG5V
 port 1 nsew signal bidirectional
-flabel metal5 s 1500 400 13500 12400 0 FreeSans 8000 0 0 0 DVSS
-port 3 nsew ground bidirectional
 flabel metal5 s 0 17200 1000 20200 0 FreeSans 1600 0 0 0 DVSS
 port 3 nsew ground bidirectional
 flabel metal5 s 0 62000 1000 63400 0 FreeSans 1600 0 0 0 VDD
@@ -196,9 +194,11 @@ flabel metal5 s 14000 25200 15000 26600 0 FreeSans 1600 0 0 0 DVSS
 port 3 nsew ground bidirectional
 flabel metal5 s 14000 14000 15000 17000 0 FreeSans 1600 0 0 0 DVSS
 port 3 nsew ground bidirectional
+flabel metal5 s 1500 400 13500 12400 0 FreeSans 8000 0 0 0 ASIG5V
+port 3 nsew ground bidirectional
 << properties >>
 string FIXED_BBOX 0 0 15000 70000
 string LEFclass PAD INOUT
-string LEFsymmetry X Y R90
 string LEFsite GF_IO_Site
+string LEFsymmetry X Y R90
 << end >>

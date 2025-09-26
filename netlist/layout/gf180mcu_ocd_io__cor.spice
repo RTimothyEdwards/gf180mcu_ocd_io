@@ -277,7 +277,7 @@ X3 a_3083_6541# VMINUS cap_nmos_06v0 c_width=25u c_length=10u
 .subckt GF_NI_COR_BASE ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_35210# ESD_CLAMP_COR_0/power_via_cor_3_0/m1_14757_49610#
 + ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_35210# moscap_corner_0/a_647_6541# moscap_corner_6/a_647_529#
 + ESD_CLAMP_COR_0/power_via_cor_5_0/m1_14757_49610# moscap_corner_6/a_647_6541# moscap_corner_4/a_647_529#
-+ moscap_corner_0/a_647_529# VDD DVDD moscap_corner_1/a_647_529# moscap_corner_4/a_647_6541#
++ moscap_corner_0/a_647_529# VDD DVDD moscap_corner_4/a_647_6541# moscap_corner_1/a_647_529#
 + VSS
 Xmoscap_corner_1_0 moscap_corner_6/a_647_6541# moscap_corner_6/a_647_529# VSS moscap_corner_1
 Xmoscap_corner_0 VSS moscap_corner_0/a_647_6541# moscap_corner_0/a_647_529# moscap_corner

@@ -151,10 +151,6 @@ MACRO gf180mcu_ocd_io__asig_5p0
     USE GROUND ;
     PORT
       LAYER Metal5 ;
-        RECT 7.500 2.000 67.500 62.000 ;
-    END
-    PORT
-      LAYER Metal5 ;
         RECT 0.000 86.000 5.000 101.000 ;
     END
     PORT
@@ -232,6 +228,10 @@ MACRO gf180mcu_ocd_io__asig_5p0
     PORT
       LAYER Metal5 ;
         RECT 70.000 70.000 75.000 85.000 ;
+    END
+    PORT
+      LAYER Metal5 ;
+        RECT 7.500 2.000 67.500 62.000 ;
     END
   END DVSS
   PIN VDD
