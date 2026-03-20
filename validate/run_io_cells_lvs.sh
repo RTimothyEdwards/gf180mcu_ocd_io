@@ -44,6 +44,7 @@ foreach iocell \$iocells {
     load ../magic/\$iocell
     select top cell
     expand
+    extract unique notopports
     extract all
     ext2spice -p extfiles -o ../netlist/layout/\${iocell}.spice
 }

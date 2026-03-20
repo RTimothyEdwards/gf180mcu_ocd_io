@@ -123,8 +123,8 @@ SL                                                            |SL
 IE                                                            |IE                                                            
 PU                                                            |PU                                                            
 PD                                                            |PD                                                            
-DVDD                                                          |DVDD                                                          
 DVSS                                                          |DVSS                                                          
+DVDD                                                          |DVDD                                                          
 VDD                                                           |VDD                                                           
 PAD                                                           |PAD                                                           
 VSS                                                           |VSS                                                           

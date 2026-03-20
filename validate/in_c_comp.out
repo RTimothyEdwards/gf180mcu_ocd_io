@@ -116,8 +116,8 @@ Circuit 1: gf180mcu_ocd_io__in_c                              |Circuit 2: gf180m
 Y                                                             |Y                                                             
 PU                                                            |PU                                                            
 PD                                                            |PD                                                            
-DVDD                                                          |DVDD                                                          
 DVSS                                                          |DVSS                                                          
+DVDD                                                          |DVDD                                                          
 VDD                                                           |VDD                                                           
 PAD                                                           |PAD                                                           
 VSS                                                           |VSS                                                           

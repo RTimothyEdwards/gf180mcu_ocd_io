@@ -1,7 +1,11 @@
 * NGSPICE file created from gf180mcu_ocd_io__in_c.ext - technology: gf180mcuD
 
-.subckt x5LM_METAL_RAIL_PAD_60 VSUBS Bondpad_5LM_0/m2_n400_0# 5LM_METAL_RAIL_0/VDD
-+ 5LM_METAL_RAIL_0/VSS 5LM_METAL_RAIL_0/DVSS 5LM_METAL_RAIL_0/DVDD
+.subckt x5LM_METAL_RAIL_PAD_60 VSUBS Bondpad_5LM_0/m2_n400_0# 5LM_METAL_RAIL_0/VDD_uq0
++ 5LM_METAL_RAIL_0/VDD 5LM_METAL_RAIL_0/VSS 5LM_METAL_RAIL_0/DVDD 5LM_METAL_RAIL_0/DVDD_uq4
++ 5LM_METAL_RAIL_0/DVDD_uq3 5LM_METAL_RAIL_0/DVSS 5LM_METAL_RAIL_0/DVDD_uq2 5LM_METAL_RAIL_0/DVDD_uq0
++ 5LM_METAL_RAIL_0/DVSS_uq0 5LM_METAL_RAIL_0/DVDD_uq1 5LM_METAL_RAIL_0/DVSS_uq6 5LM_METAL_RAIL_0/VSS_uq0
++ 5LM_METAL_RAIL_0/DVSS_uq5 5LM_METAL_RAIL_0/DVSS_uq4 5LM_METAL_RAIL_0/DVSS_uq3 5LM_METAL_RAIL_0/DVSS_uq2
++ 5LM_METAL_RAIL_0/DVSS_uq1
 .ends
 
 .subckt lv_nand a_16960_50788# w_16870_51136# a_17113_51095# a_17024_51222# a_17252_51095#
@@ -233,8 +237,8 @@ X6 Z a_1561_310# DVDD DVDD pfet_06v0 ad=0.78p pd=3.52u as=1.32p ps=6.88u w=3u l=
 X7 DVDD a_1561_310# Z DVDD pfet_06v0 ad=0.78p pd=3.52u as=0.78p ps=3.52u w=3u l=0.7u
 .ends
 
-.subckt comp018green_in_drv DVDD A DVSS VDD VSS Z a_1167_270# a_923_1522# a_3067_747#
-X0 DVSS A a_n180_263# DVSS nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=0.7u
+.subckt comp018green_in_drv DVDD A DVSS VDD VSS Z A_uq0 a_1167_270# a_923_1522# a_3067_747#
+X0 DVSS A_uq0 a_n180_263# DVSS nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=0.7u
 X1 a_n180_263# A DVSS DVSS nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=0.7u
 X2 Z a_n180_263# a_1167_270# DVSS nfet_06v0 ad=0.325p pd=1.77u as=0.55p ps=3.38u w=1.25u l=0.7u
 X3 a_1167_270# a_n180_263# Z DVSS nfet_06v0 ad=0.55p pd=3.38u as=0.325p ps=1.77u w=1.25u l=0.7u
@@ -303,7 +307,7 @@ X33 DVSS IE a_1887_280# DVSS nfet_06v0 ad=0.832p pd=3.72u as=0.832p ps=3.72u w=3
 Xlv_inv_14 w_n13_970# comp018green_sigbuf_1/IN a_1390_1224# VSUBS lv_inv
 Xlv_inv_15 w_n13_970# comp018green_sigbuf_1/INB comp018green_sigbuf_1/IN VSUBS lv_inv
 Xcomp018green_in_pupd_0 comp018green_in_pupd_0/A comp018green_in_pupd_0/DVDD comp018green_in_pupd_0/DVSS
-+ comp018green_in_pupd_0/PU_B comp018green_sigbuf_0/ZB comp018green_in_pupd_0/w_n83_53#
++ comp018green_sigbuf_2/Z comp018green_sigbuf_0/ZB comp018green_in_pupd_0/w_n83_53#
 + comp018green_sigbuf_2/Z comp018green_in_pupd
 Xcomp018green_in_logic_pupd_0 comp018green_sigbuf_0/IN comp018green_sigbuf_2/IN comp018green_sigbuf_0/INB
 + PU comp018green_sigbuf_2/INB VSUBS comp018green_in_logic_pupd_0/a_1648_203# a_1390_2124#
@@ -319,8 +323,8 @@ Xcomp018green_sigbuf_2 comp018green_sigbuf_2/Z comp018green_sigbuf_3/DVSS comp01
 Xcomp018green_sigbuf_3 comp018green_sigbuf_3/Z comp018green_sigbuf_3/DVSS comp018green_sigbuf_3/DVDD
 + comp018green_sigbuf_3/ZB comp018green_sigbuf_3/INB comp018green_sigbuf_3/IN comp018green_sigbuf
 Xcomp018green_in_drv_0 comp018green_in_drv_0/DVDD comp018green_in_drv_0/A comp018green_in_drv_0/DVSS
-+ comp018green_in_drv_0/VDD VSUBS comp018green_in_drv_0/Z VSUBS comp018green_in_drv_0/VDD
-+ m1_12910_4326# comp018green_in_drv
++ comp018green_in_drv_0/VDD VSUBS comp018green_in_drv_0/Z comp018green_in_drv_0/A
++ VSUBS comp018green_in_drv_0/VDD m1_12910_4326# comp018green_in_drv
 Xcomp018green_in_cms_smt_0 comp018green_sigbuf_1/Z comp018green_sigbuf_3/Z comp018green_in_drv_0/DVDD
 + PAD comp018green_in_drv_0/DVSS comp018green_in_drv_0/A comp018green_in_cms_smt_0/a_5355_608#
 + PAD comp018green_in_cms_smt
@@ -450,7 +454,8 @@ X11 comp018green_out_predrv_3/DVDD comp018green_inpath_cms_smt_0/comp018green_si
 .ends
 
 .subckt gf180mcu_ocd_io__in_c DVDD DVSS PAD PD PU VDD VSS Y
-X5LM_METAL_RAIL_PAD_60_0 VSS PAD VDD VSS DVSS DVDD x5LM_METAL_RAIL_PAD_60
+X5LM_METAL_RAIL_PAD_60_0 VSS PAD VDD VDD VSS DVDD DVDD DVDD DVSS DVDD DVDD DVSS DVDD
++ DVSS VSS DVSS DVSS DVSS DVSS DVSS x5LM_METAL_RAIL_PAD_60
 XGF_NI_IN_C_BASE_0 PD PU Y GF_NI_IN_C_BASE_0/ndrive_y_<0> GF_NI_IN_C_BASE_0/ndrive_x_<0>
 + GF_NI_IN_C_BASE_0/ndrive_x_<1> GF_NI_IN_C_BASE_0/ndrive_Y_<1> GF_NI_IN_C_BASE_0/ndrive_x_<2>
 + GF_NI_IN_C_BASE_0/ndrive_y_<2> GF_NI_IN_C_BASE_0/ndrive_x_<3> GF_NI_IN_C_BASE_0/ndrive_Y_<3>

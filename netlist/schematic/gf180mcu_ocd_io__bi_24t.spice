@@ -228,7 +228,7 @@ Xx19 OUT net5 VSS VSS nfet_06v0_dss L=0.8u W=37u nf=1 ad='int((nf+1)/2) * W/nf *
 x3 net3 net4 VDD VSS io_inv_4
 XI113 net6 VDD net4 VSS nfet_06v0 L=0.7u W=01.2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-XM18 OUT net6 VDD VDD pfet_06v0_dss L=0.7u W=120u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
+XM18 OUT net6 VDD VDD pfet_06v0_dss L=0.7u W=120u nf=2 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 d_sab=2.78u s_sab=0.28u m=1
 XI127 net6 net3 VDD VDD pfet_06v0 L=0.7u W=024u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
