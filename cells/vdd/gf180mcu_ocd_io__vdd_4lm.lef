@@ -197,6 +197,10 @@ MACRO gf180mcu_ocd_io__vdd
     DIRECTION INOUT ;
     USE POWER ;
     PORT
+      LAYER Metal4 ;
+        RECT 7.500 2.000 67.500 62.000 ;
+    END
+    PORT
       LAYER Metal2 ;
         RECT 1.360 345.345 10.860 350.000 ;
     END
@@ -219,10 +223,6 @@ MACRO gf180mcu_ocd_io__vdd
     PORT
       LAYER Metal2 ;
         RECT 64.140 345.345 73.640 350.000 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 7.500 2.000 67.500 62.000 ;
     END
     PORT
       LAYER Metal4 ;
