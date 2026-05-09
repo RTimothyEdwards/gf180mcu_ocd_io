@@ -3,7 +3,7 @@ VERSION 5.7 ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
 MACRO gf180mcu_ocd_io__dvss
-  CLASS PAD GROUND ;
+  CLASS PAD POWER ;
   FOREIGN gf180mcu_ocd_io__dvss ;
   ORIGIN 0.000 0.000 ;
   SIZE 75.000 BY 350.000 ;
