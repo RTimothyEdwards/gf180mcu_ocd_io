@@ -121,6 +121,10 @@ MACRO gf180mcu_ocd_io__vss
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
+      LAYER Metal3 ;
+        RECT 7.500 2.000 67.500 62.000 ;
+    END
+    PORT
       LAYER Metal2 ;
         RECT 1.360 349.000 10.860 350.000 ;
     END
@@ -151,10 +155,6 @@ MACRO gf180mcu_ocd_io__vss
     PORT
       LAYER Metal3 ;
         RECT 0.000 246.000 75.000 253.000 ;
-    END
-    PORT
-      LAYER Metal3 ;
-        RECT 7.500 2.000 67.500 62.000 ;
     END
   END VSS
   OBS
