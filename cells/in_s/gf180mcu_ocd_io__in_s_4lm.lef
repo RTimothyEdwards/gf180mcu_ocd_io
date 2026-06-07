@@ -10,8 +10,8 @@ MACRO gf180mcu_ocd_io__in_s
   SYMMETRY X Y R90 ;
   SITE GF_IO_Site ;
   PIN DVDD
-    ANTENNAGATEAREA 3.360000 ;
-    ANTENNADIFFAREA 3422.235107 ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER Metal4 ;
         RECT 0.000 182.000 5.000 197.000 ;
@@ -110,8 +110,8 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END DVDD
   PIN DVSS
-    ANTENNAGATEAREA 3.360000 ;
-    ANTENNADIFFAREA 2855.983887 ;
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER Metal4 ;
         RECT 0.000 86.000 5.000 101.000 ;
@@ -194,6 +194,8 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END DVSS
   PIN PAD
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 258.720001 ;
     PORT
       LAYER Metal4 ;
@@ -201,6 +203,8 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END PAD
   PIN PD
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 1.512000 ;
     ANTENNADIFFAREA 1.000000 ;
     PORT
@@ -209,6 +213,8 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END PD
   PIN PU
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 1.008000 ;
     ANTENNADIFFAREA 1.795000 ;
     PORT
@@ -217,6 +223,7 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END PU
   PIN VDD
+    DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER Metal4 ;
@@ -236,6 +243,7 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END VDD
   PIN VSS
+    DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER Metal4 ;
@@ -255,6 +263,8 @@ MACRO gf180mcu_ocd_io__in_s
     END
   END VSS
   PIN Y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 3.240000 ;
     PORT
       LAYER Metal2 ;
