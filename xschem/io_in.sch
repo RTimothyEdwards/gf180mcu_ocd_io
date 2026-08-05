@@ -48,7 +48,7 @@ C {io_inv_1.sym} -190 320 0 0 {name=x4}
 C {devices/ipin.sym} -210 320 0 0 {name=p3 lab=IE}
 C {io_inv_2.sym} 150 320 0 0 {name=x5}
 C {io_inv_3.sym} 280 10 0 0 {name=x6}
-C {symbols/pfet_06v0.sym} 330 -380 0 0 {name=I157
+C {gf180mcu_fd_pr/pfet_06v0.sym} 330 -380 0 0 {name=I157
 L=0.70u
 W=3u
 nf=1
@@ -62,7 +62,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 370 -80 0 1 {name=I171
+C {gf180mcu_fd_pr/nfet_06v0.sym} 370 -80 0 1 {name=I171
 L=0.70u
 W=1.5u
 nf=1
@@ -86,7 +86,7 @@ C {io_inv_2.sym} 280 320 0 0 {name=x12}
 C {io_inv_1.sym} -190 -380 0 0 {name=x13}
 C {devices/ipin.sym} -210 -380 0 0 {name=p5 lab=CS}
 C {io_inv_2.sym} 150 -380 0 0 {name=x14}
-C {symbols/pfet_06v0.sym} 280 220 0 0 {name=I160
+C {gf180mcu_fd_pr/pfet_06v0.sym} 280 220 0 0 {name=I160
 L=0.70u
 W=6u
 nf=1
@@ -100,7 +100,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 470 400 0 0 {name=I165
+C {gf180mcu_fd_pr/nfet_06v0.sym} 470 400 0 0 {name=I165
 L=0.70u
 W=10.6u
 nf=1
@@ -114,7 +114,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 470 220 0 0 {name=I163
+C {gf180mcu_fd_pr/pfet_06v0.sym} 470 220 0 0 {name=I163
 L=0.70u
 W=4.3u
 nf=1
@@ -128,7 +128,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 470 100 0 0 {name=I158
+C {gf180mcu_fd_pr/pfet_06v0.sym} 470 100 0 0 {name=I158
 L=0.70u
 W=3.8u
 nf=1
@@ -142,7 +142,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 640 160 0 1 {name=I159
+C {gf180mcu_fd_pr/pfet_06v0.sym} 640 160 0 1 {name=I159
 L=0.70u
 W=3.8u
 nf=1
@@ -156,7 +156,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 470 460 0 0 {name=I164
+C {gf180mcu_fd_pr/nfet_06v0.sym} 470 460 0 0 {name=I164
 L=0.70u
 W=16u
 nf=1
@@ -170,7 +170,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 680 340 0 1 {name=I170
+C {gf180mcu_fd_pr/nfet_06v0.sym} 680 340 0 1 {name=I170
 L=0.70u
 W=1.3u
 nf=1
@@ -225,7 +225,7 @@ C {gnd.sym} 330 -320 0 0 {name=l36 lab=DVSS}
 C {gnd.sym} 330 -200 0 0 {name=l37 lab=DVSS}
 C {devices/iopin.sym} 0 -180 0 0 {name=p2 lab=VDD}
 C {devices/iopin.sym} 0 -160 0 0 {name=p6 lab=VSS}
-C {symbols/nfet_06v0.sym} 470 280 0 0 {name=I1
+C {gf180mcu_fd_pr/nfet_06v0.sym} 470 280 0 0 {name=I1
 L=0.70u
 W=12u
 nf=1

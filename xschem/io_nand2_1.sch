@@ -46,7 +46,7 @@ C {devices/ipin.sym} 190 -80 0 1 {name=p1 lab=IN0}
 C {devices/ipin.sym} -190 -80 0 0 {name=p3 lab=IN1}
 C {devices/iopin.sym} -90 -140 0 1 {name=p4 lab=VDD}
 C {devices/iopin.sym} -110 170 0 1 {name=p5 lab=VSS}
-C {symbols/nfet_03v3.sym} -20 110 0 0 {name=M5
+C {gf180mcu_fd_pr/nfet_03v3.sym} -20 110 0 0 {name=M5
 L=0.28u
 W=0.6u
 nf=1
@@ -60,7 +60,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} -110 -80 0 0 {name=M6
+C {gf180mcu_fd_pr/pfet_03v3.sym} -110 -80 0 0 {name=M6
 L=0.28u
 W=1.2u
 nf=1
@@ -74,7 +74,7 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 20 20 0 1 {name=M1
+C {gf180mcu_fd_pr/nfet_03v3.sym} 20 20 0 1 {name=M1
 L=0.28u
 W=0.6u
 nf=1
@@ -88,7 +88,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} 110 -80 0 1 {name=M2
+C {gf180mcu_fd_pr/pfet_03v3.sym} 110 -80 0 1 {name=M2
 L=0.28u
 W=1.2u
 nf=1

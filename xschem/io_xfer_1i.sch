@@ -20,7 +20,7 @@ S {}
 E {}
 N -30 -80 -30 90 { lab=IN}
 N 30 -80 30 90 { lab=OUT}
-C {symbols/pfet_06v0.sym} 0 110 3 0 {name=M1
+C {gf180mcu_fd_pr/pfet_06v0.sym} 0 110 3 0 {name=M1
 L=0.70u
 W=2u
 nf=1
@@ -35,7 +35,7 @@ model=pfet_06v0
 spiceprefix=X
 }
 C {devices/opin.sym} 30 0 0 0 {name=p2 lab=OUT}
-C {symbols/nfet_06v0.sym} 0 -100 1 0 {name=M3
+C {gf180mcu_fd_pr/nfet_06v0.sym} 0 -100 1 0 {name=M3
 L=0.70u
 W=1.5u
 nf=1
