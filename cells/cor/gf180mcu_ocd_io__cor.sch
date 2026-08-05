@@ -116,7 +116,7 @@ N 790 450 880 450 {lab=VSS}
 N 970 -0 1060 0 {lab=DVSS}
 N 1060 0 1060 140 {lab=DVSS}
 N 970 140 1060 140 {lab=DVSS}
-C {symbols/cap_nmos_06v0.sym} 180 10 0 0 {name=C1
+C {gf180mcu_fd_pr/cap_nmos_06v0.sym} 180 10 0 0 {name=C1
 W=25e-6
 L=10e-6
 model=cap_nmos_06v0
@@ -125,7 +125,7 @@ m=70}
 C {iopin.sym} -140 -110 0 1 {name=p1 lab=DVDD}
 C {iopin.sym} -140 140 0 1 {name=p2 lab=DVSS}
 C {iopin.sym} -130 450 0 1 {name=p4 lab=VSS}
-C {symbols/pfet_06v0.sym} 790 -50 0 0 {name=M1
+C {gf180mcu_fd_pr/pfet_06v0.sym} 790 -50 0 0 {name=M1
 L=0.7u
 W=120u
 nf=2
@@ -139,7 +139,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 450 -50 0 0 {name=M2
+C {gf180mcu_fd_pr/pfet_06v0.sym} 450 -50 0 0 {name=M2
 L=0.7u
 W=20u
 nf=1
@@ -153,7 +153,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 630 -50 0 0 {name=M3
+C {gf180mcu_fd_pr/pfet_06v0.sym} 630 -50 0 0 {name=M3
 L=0.7u
 W=15u
 nf=1
@@ -167,13 +167,13 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/cap_nmos_06v0.sym} 310 70 0 1 {name=C2
+C {gf180mcu_fd_pr/cap_nmos_06v0.sym} 310 70 0 1 {name=C2
 W=25e-6
 L=10e-6
 model=cap_nmos_06v0
 spiceprefix=X
 m=8}
-C {symbols/nfet_06v0.sym} 950 0 0 0 {name=M4
+C {gf180mcu_fd_pr/nfet_06v0.sym} 950 0 0 0 {name=M4
 L=0.70u
 W=4m
 nf=80
@@ -187,7 +187,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 450 70 0 0 {name=M5
+C {gf180mcu_fd_pr/nfet_06v0.sym} 450 70 0 0 {name=M5
 L=0.70u
 W=5u
 nf=1
@@ -201,7 +201,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 790 60 0 0 {name=M6
+C {gf180mcu_fd_pr/nfet_06v0.sym} 790 60 0 0 {name=M6
 L=0.70u
 W=30u
 nf=1
@@ -215,7 +215,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 630 60 0 0 {name=M7
+C {gf180mcu_fd_pr/nfet_06v0.sym} 630 60 0 0 {name=M7
 L=0.70u
 W=30u
 nf=1
@@ -229,7 +229,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/ppolyf_u.sym} 310 -60 0 1 {name=R1
+C {gf180mcu_fd_pr/ppolyf_u.sym} 310 -60 0 1 {name=R1
 W=0.8e-6
 L=766.26e-6
 model=ppolyf_u
@@ -240,7 +240,7 @@ C {lab_wire.sym} 670 0 2 0 {name=p5 sig_type=std_logic lab=n6}
 C {lab_wire.sym} 830 0 2 0 {name=p6 sig_type=std_logic lab=n4}
 C {lab_wire.sym} 370 10 0 0 {name=p7 sig_type=std_logic lab=n8}
 C {iopin.sym} -140 200 0 1 {name=p8 lab=VDD}
-C {symbols/pfet_06v0.sym} 610 260 0 0 {name=M8
+C {gf180mcu_fd_pr/pfet_06v0.sym} 610 260 0 0 {name=M8
 L=0.7u
 W=120u
 nf=2
@@ -254,7 +254,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 270 260 0 0 {name=M9
+C {gf180mcu_fd_pr/pfet_06v0.sym} 270 260 0 0 {name=M9
 L=0.7u
 W=20u
 nf=1
@@ -268,7 +268,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 450 260 0 0 {name=M10
+C {gf180mcu_fd_pr/pfet_06v0.sym} 450 260 0 0 {name=M10
 L=0.7u
 W=15u
 nf=1
@@ -282,13 +282,13 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/cap_nmos_06v0.sym} 130 380 0 1 {name=C3
+C {gf180mcu_fd_pr/cap_nmos_06v0.sym} 130 380 0 1 {name=C3
 W=25e-6
 L=10e-6
 model=cap_nmos_06v0
 spiceprefix=X
 m=8}
-C {symbols/nfet_06v0.sym} 770 310 0 0 {name=M11
+C {gf180mcu_fd_pr/nfet_06v0.sym} 770 310 0 0 {name=M11
 L=0.70u
 W=4m
 nf=80
@@ -302,7 +302,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 270 380 0 0 {name=M12
+C {gf180mcu_fd_pr/nfet_06v0.sym} 270 380 0 0 {name=M12
 L=0.70u
 W=5u
 nf=1
@@ -316,7 +316,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 610 370 0 0 {name=M13
+C {gf180mcu_fd_pr/nfet_06v0.sym} 610 370 0 0 {name=M13
 L=0.70u
 W=30u
 nf=1
@@ -330,7 +330,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 450 370 0 0 {name=M14
+C {gf180mcu_fd_pr/nfet_06v0.sym} 450 370 0 0 {name=M14
 L=0.70u
 W=30u
 nf=1
@@ -344,7 +344,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/ppolyf_u.sym} 130 250 0 1 {name=R2
+C {gf180mcu_fd_pr/ppolyf_u.sym} 130 250 0 1 {name=R2
 W=0.8e-6
 L=766.26e-6
 model=ppolyf_u

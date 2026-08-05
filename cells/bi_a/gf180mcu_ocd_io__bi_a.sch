@@ -92,25 +92,25 @@ N 780 1110 810 1110 {lab=PD}
 N 930 1100 990 1100 {lab=#net1}
 N 990 790 990 910 {lab=#net1}
 N 770 790 990 790 {lab=#net1}
-C {symbols/ppolyf_u.sym} 990 1210 0 0 {name=R206
+C {gf180mcu_fd_pr/ppolyf_u.sym} 990 1210 0 0 {name=R206
 W=2.5e-6
 L=2.8e-6
 model=ppolyf_u
 spiceprefix=X
 m=1}
-C {symbols/ppolyf_u.sym} 1100 1210 0 0 {name=R207
+C {gf180mcu_fd_pr/ppolyf_u.sym} 1100 1210 0 0 {name=R207
 W=2.5e-6
 L=2.8e-6
 model=ppolyf_u
 spiceprefix=X
 m=1}
-C {symbols/ppolyf_u.sym} 1210 1210 0 0 {name=R209
+C {gf180mcu_fd_pr/ppolyf_u.sym} 1210 1210 0 0 {name=R209
 W=2.5e-6
 L=2.8e-6
 model=ppolyf_u
 spiceprefix=X
 m=1}
-C {symbols/ppolyf_u.sym} 1320 1210 0 0 {name=R1
+C {gf180mcu_fd_pr/ppolyf_u.sym} 1320 1210 0 0 {name=R1
 W=2.5e-6
 L=2.8e-6
 model=ppolyf_u
@@ -140,7 +140,7 @@ C {devices/ipin.sym} 1340 1140 0 0 {name=p12 lab=SL}
 C {devices/ipin.sym} 1340 1120 0 0 {name=p13 lab=OE}
 C {devices/ipin.sym} 770 850 0 0 {name=p14 lab=CS}
 C {devices/ipin.sym} 770 820 0 0 {name=p15 lab=IE}
-C {symbols/cap_nmos_06v0.sym} 1080 1380 0 0 {name=C1
+C {gf180mcu_fd_pr/cap_nmos_06v0.sym} 1080 1380 0 0 {name=C1
 W=3e-6
 L=3e-6
 model=cap_nmos_06v0
@@ -148,7 +148,7 @@ spiceprefix=X
 m=4}
 C {vdd.sym} 1080 1350 0 0 {name=l8 lab=DVDD}
 C {gnd.sym} 1080 1410 0 1 {name=l9 lab=DVSS}
-C {symbols/cap_nmos_06v0.sym} 1250 1380 0 0 {name=C2
+C {gf180mcu_fd_pr/cap_nmos_06v0.sym} 1250 1380 0 0 {name=C2
 W=5e-6
 L=1.5e-6
 model=cap_nmos_06v0
@@ -156,12 +156,12 @@ spiceprefix=X
 m=10}
 C {vdd.sym} 1250 1350 0 0 {name=l10 lab=DVDD}
 C {gnd.sym} 1250 1410 0 1 {name=l11 lab=DVSS}
-C {symbols/diode_nd2ps_06v0.sym} 1120 1110 2 0 {name=D3
+C {gf180mcu_fd_pr/diode_nd2ps_06v0.sym} 1120 1110 2 0 {name=D3
 model=diode_nd2ps_06v0
 r_w=20u
 r_l=1u
 m=2}
-C {symbols/diode_pd2nw_06v0.sym} 1120 1050 2 0 {name=D2
+C {gf180mcu_fd_pr/diode_pd2nw_06v0.sym} 1120 1050 2 0 {name=D2
 model=diode_pd2nw_06v0
 r_w=20u
 r_l=1u
@@ -199,52 +199,52 @@ C {lab_pin.sym} 890 1340 0 1 {name=p8 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 890 1360 0 1 {name=p17 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 890 1410 0 1 {name=p18 sig_type=std_logic lab=DVDD}
 C {lab_pin.sym} 890 1430 0 1 {name=p19 sig_type=std_logic lab=DVSS}
-C {symbols/diode_pd2nw_03v3.sym} 840 600 2 0 {name=D1
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 840 600 2 0 {name=D1
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 840 730 2 0 {name=D7
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 840 730 2 0 {name=D7
 model=diode_pd2nw_03v3
 r_w=0.48u
 r_l=0.48u
 m=3}
-C {symbols/diode_pd2nw_03v3.sym} 1020 600 2 0 {name=D4
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1020 600 2 0 {name=D4
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1190 600 2 0 {name=D5
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1190 600 2 0 {name=D5
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1370 600 2 0 {name=D6
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1370 600 2 0 {name=D6
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1540 600 2 0 {name=D8
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1540 600 2 0 {name=D8
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1720 600 2 0 {name=D9
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1720 600 2 0 {name=D9
 model=diode_pd2nw_03v3
 r_w=1u
 r_l=1u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1020 730 2 0 {name=D10
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1020 730 2 0 {name=D10
 model=diode_pd2nw_03v3
 r_w=0.48u
 r_l=0.48u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1190 730 2 0 {name=D11
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1190 730 2 0 {name=D11
 model=diode_pd2nw_03v3
 r_w=0.48u
 r_l=0.48u
 m=1}
-C {symbols/diode_pd2nw_03v3.sym} 1370 730 2 0 {name=D12
+C {gf180mcu_fd_pr/diode_pd2nw_03v3.sym} 1370 730 2 0 {name=D12
 model=diode_pd2nw_03v3
 r_w=0.48u
 r_l=0.48u

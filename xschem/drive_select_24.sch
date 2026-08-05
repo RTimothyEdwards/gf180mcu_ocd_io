@@ -60,7 +60,7 @@ N 740 10 740 260 { lab=OUT}
 N 740 -620 740 -380 { lab=OUT}
 N 500 -560 560 -560 { lab=FAST_N}
 N 500 190 560 190 { lab=FAST}
-C {symbols/pfet_06v0.sym} 60 -240 0 0 {name=I121
+C {gf180mcu_fd_pr/pfet_06v0.sym} 60 -240 0 0 {name=I121
 L=0.70u
 W=12u
 nf=1
@@ -74,7 +74,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 280 -240 0 0 {name=I125
+C {gf180mcu_fd_pr/pfet_06v0.sym} 280 -240 0 0 {name=I125
 L=0.70u
 W=12u
 nf=1
@@ -88,7 +88,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 280 -180 0 0 {name=I126
+C {gf180mcu_fd_pr/pfet_06v0.sym} 280 -180 0 0 {name=I126
 L=0.70u
 W=12u
 nf=1
@@ -102,7 +102,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 60 -180 0 0 {name=I119
+C {gf180mcu_fd_pr/nfet_06v0.sym} 60 -180 0 0 {name=I119
 L=0.70u
 W=6u
 nf=1
@@ -116,7 +116,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 100 -120 0 1 {name=I117
+C {gf180mcu_fd_pr/nfet_06v0.sym} 100 -120 0 1 {name=I117
 L=0.70u
 W=6u
 nf=1
@@ -130,7 +130,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 280 -120 0 0 {name=I118
+C {gf180mcu_fd_pr/nfet_06v0.sym} 280 -120 0 0 {name=I118
 L=0.70u
 W=6u
 nf=1
@@ -151,7 +151,7 @@ C {vdd.sym} 300 -270 0 0 {name=l4 lab=VDD}
 C {devices/ipin.sym} 190 -310 0 0 {name=p1 lab=IN}
 C {devices/ipin.sym} -30 -210 0 0 {name=p3 lab=ENABLE}
 C {io_inv_4.sym} 420 -350 0 0 {name=x2}
-C {symbols/pfet_06v0.sym} 560 -540 1 0 {name=I120
+C {gf180mcu_fd_pr/pfet_06v0.sym} 560 -540 1 0 {name=I120
 L=0.7u
 W=24u
 nf=1
@@ -165,7 +165,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0_dss.sym} 610 -350 0 0 {name=x20
+C {gf180mcu_fd_pr/nfet_06v0_dss.sym} 610 -350 0 0 {name=x20
 L=0.8u
 W=37u
 nf=1
@@ -181,7 +181,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0_dss
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 570 -250 0 0 {name=I114
+C {gf180mcu_fd_pr/nfet_06v0.sym} 570 -250 0 0 {name=I114
 L=0.70u
 W=12u
 nf=1
@@ -195,7 +195,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 560 -330 3 0 {name=I124
+C {gf180mcu_fd_pr/pfet_06v0.sym} 560 -330 3 0 {name=I124
 L=0.7u
 W=1.2u
 nf=1
@@ -209,7 +209,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0_dss.sym} 610 -590 0 0 {name=x19
+C {gf180mcu_fd_pr/nfet_06v0_dss.sym} 610 -590 0 0 {name=x19
 L=0.8u
 W=37u
 nf=1
@@ -231,7 +231,7 @@ C {gnd.sym} 630 -320 0 0 {name=l7 lab=VSS}
 C {gnd.sym} 560 -310 0 0 {name=l8 lab=VSS}
 C {vdd.sym} 560 -350 0 0 {name=l9 lab=VDD}
 C {io_inv_4.sym} 420 -20 0 0 {name=x3}
-C {symbols/nfet_06v0.sym} 560 -40 1 0 {name=I113
+C {gf180mcu_fd_pr/nfet_06v0.sym} 560 -40 1 0 {name=I113
 L=0.7u
 W=01.2u
 nf=1
@@ -245,7 +245,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0_dss.sym} 610 -20 0 0 {name=M18
+C {gf180mcu_fd_pr/pfet_06v0_dss.sym} 610 -20 0 0 {name=M18
 L=0.7u
 W=120u
 nf=2
@@ -261,7 +261,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0_dss
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 570 -110 0 0 {name=I127
+C {gf180mcu_fd_pr/pfet_06v0.sym} 570 -110 0 0 {name=I127
 L=0.7u
 W=024u
 nf=1
@@ -277,7 +277,7 @@ spiceprefix=X
 }
 C {vdd.sym} 560 -60 0 1 {name=l10 lab=VDD}
 C {vdd.sym} 590 -140 0 0 {name=l11 lab=VDD}
-C {symbols/pfet_06v0_dss.sym} 610 230 0 0 {name=M21
+C {gf180mcu_fd_pr/pfet_06v0_dss.sym} 610 230 0 0 {name=M21
 L=0.7u
 W=60u
 nf=1
@@ -294,7 +294,7 @@ model=pfet_06v0_dss
 spiceprefix=X
 }
 C {vdd.sym} 630 200 0 0 {name=l12 lab=VDD}
-C {symbols/nfet_06v0.sym} 560 170 3 0 {name=I112
+C {gf180mcu_fd_pr/nfet_06v0.sym} 560 170 3 0 {name=I112
 L=0.7u
 W=12u
 nf=1

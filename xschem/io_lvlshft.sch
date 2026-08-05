@@ -63,7 +63,7 @@ C {devices/opin.sym} 570 20 0 0 {name=p2 lab=OUT}
 C {devices/ipin.sym} -80 0 0 0 {name=p3 lab=IN}
 C {devices/iopin.sym} -20 -110 0 1 {name=p1 lab=VDD}
 C {devices/iopin.sym} -20 120 0 1 {name=p4 lab=VSS}
-C {symbols/nfet_03v3.sym} -20 50 0 0 {name=M2
+C {gf180mcu_fd_pr/nfet_03v3.sym} -20 50 0 0 {name=M2
 L=0.28u
 W=0.6u
 nf=1
@@ -77,7 +77,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {symbols/pfet_03v3.sym} -20 -50 0 0 {name=M4
+C {gf180mcu_fd_pr/pfet_03v3.sym} -20 -50 0 0 {name=M4
 L=0.28u
 W=1.2u
 nf=1
@@ -92,7 +92,7 @@ model=pfet_03v3
 spiceprefix=X
 }
 C {lab_pin.sym} 110 0 0 1 {name=p5 sig_type=std_logic lab=INB}
-C {symbols/nfet_06v0.sym} 250 100 0 0 {name=M1
+C {gf180mcu_fd_pr/nfet_06v0.sym} 250 100 0 0 {name=M1
 L=0.7u
 W=1.5u
 nf=1
@@ -106,7 +106,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 420 -30 0 0 {name=M3
+C {gf180mcu_fd_pr/pfet_06v0.sym} 420 -30 0 0 {name=M3
 L=0.7u
 W=1.5u
 nf=1
@@ -120,7 +120,7 @@ sa=0 sb=0 sd=0
 model=pfet_06v0
 spiceprefix=X
 }
-C {symbols/nfet_06v0.sym} 460 100 0 1 {name=M5
+C {gf180mcu_fd_pr/nfet_06v0.sym} 460 100 0 1 {name=M5
 L=0.7u
 W=1.5u
 nf=1
@@ -134,7 +134,7 @@ sa=0 sb=0 sd=0
 model=nfet_06v0
 spiceprefix=X
 }
-C {symbols/pfet_06v0.sym} 290 -30 0 1 {name=M6
+C {gf180mcu_fd_pr/pfet_06v0.sym} 290 -30 0 1 {name=M6
 L=0.7u
 W=1.5u
 nf=1

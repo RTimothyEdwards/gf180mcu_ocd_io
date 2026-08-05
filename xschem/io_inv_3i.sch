@@ -36,7 +36,7 @@ C {devices/opin.sym} 60 -30 0 0 {name=p2 lab=OUT}
 C {devices/ipin.sym} -90 -30 0 0 {name=p3 lab=IN}
 C {devices/iopin.sym} -50 -160 0 1 {name=p1 lab=VDD}
 C {devices/iopin.sym} -60 100 0 1 {name=p4 lab=VSS}
-C {symbols/pfet_03v3.sym} -30 -90 0 0 {name=M2
+C {gf180mcu_fd_pr/pfet_03v3.sym} -30 -90 0 0 {name=M2
 L=0.28u
 W=8.4u
 nf=1
@@ -50,7 +50,7 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} -30 30 0 0 {name=M4
+C {gf180mcu_fd_pr/nfet_03v3.sym} -30 30 0 0 {name=M4
 L=0.28u
 W=3.6u
 nf=1

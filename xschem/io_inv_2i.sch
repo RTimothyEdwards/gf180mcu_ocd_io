@@ -28,7 +28,7 @@ N -0 -0 80 -0 {lab=OUT}
 N -0 90 0 130 {lab=VSS}
 N -0 60 110 60 {lab=#net1}
 N -0 -60 110 -60 {lab=DVDD}
-C {symbols/pfet_06v0.sym} -20 -60 0 0 {name=M1
+C {gf180mcu_fd_pr/pfet_06v0.sym} -20 -60 0 0 {name=M1
 L=0.70u
 W=10u
 nf=1
@@ -43,7 +43,7 @@ model=pfet_06v0
 spiceprefix=X
 }
 C {devices/opin.sym} 80 0 0 0 {name=p2 lab=OUT}
-C {symbols/nfet_06v0.sym} -20 60 0 0 {name=M3
+C {gf180mcu_fd_pr/nfet_06v0.sym} -20 60 0 0 {name=M3
 L=0.70u
 W=2.5u
 nf=1
